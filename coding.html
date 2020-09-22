@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+		<title>WISDOM360</title>
+		<link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32">
+		<link rel="apple-touch-icon-precomposed" href="images/favicon/apple-touch-icon-152x152.png">
+		<meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
+		<meta name="msapplication-TileColor" content="#FFFFFF">
+		
+		<!-- CSS  -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<style>
+			.divBg {
+			background-image: url("images/cbg.png");
+			background-repeat:no-repeat;
+			background-size:cover;
+			background-size: 100% 100%;
+			}
+			
+			.bgcolor{
+			background-color: #f7b42c;
+background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
+
+			}
+		</style>
+	</head>
+	<body>
+		
+		<header>
+			<div class="navbar-fixed">
+				<nav class="white z-depth-0" role="navigation" style="border-bottom:1px solid #e0e0e0">
+					<div class="nav-wrapper container" style="width:95%">
+						<a id="logo-container" href="index.html" class="brand-logo">
+							<img src="images/root.png" style="width:2.8rem;"/>
+						</a>
+						<ul class="right hide-on-med-and-down">
+							<li><a href="#" class="grey-text text-darken-2" style="font-weight:500">Home</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownAbout" id="clickId">About us</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownProgram">Programs</a></li>
+							<li><a href="#" class="grey-text text-darken-2" style="font-weight:500">Global Program</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownLife">Life@Wisdom360</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownStory">Success Story</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownOthers">Others</a></li>
+							<li><a href="#" class="grey-text text-darken-2" style="font-weight:500">Contact us</a></li>
+						</ul>
+						<a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons grey-text text-darken-2">menu</i></a>
+					</div>
+				</nav>
+				
+			</div>
+			<!--mobile menu-->
+			<ul id="nav-mobile" class="sidenav">
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;About us &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">About Organisation</a></li>
+									<li><a href="">About Director</a></li>
+									<li><a href="">Core Values</a></li>
+									<li><a href="">Mission</a></li>
+									<li><a href="">Vision</a></li>
+									<li><a href="">Objective</a></li>
+									<li><a href="">Our Experts</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Programs &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">Classroom Program</a></li>
+									<li><a href="">Profile Building</a></li>
+									<li><a href="">My Percentile</a></li>
+									<li><a href="">Psychometric Councling</a></li>
+									<li><a href="">DMIT Councling</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Global Program</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Life@Wisdom360 &nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">Awards & Recognition</a></li>
+									<li><a href="">Media</a></li>
+									<li><a href="">Gallery</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Success Story&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">Results</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Others &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">Blog</a></li>
+									<li><a href="">Downloads</a></li>
+									<li><a href="">E-Book</a></li>
+									<li><a href="">Career</a></li>
+									<li><a href="">Brochure</a></li>
+									<li><a href="">Admission</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Contact us</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+			</ul>
+			
+			<!--dropdown contant-->
+			<ul id="dropdownAbout" class="dropdown-content">
+				<li><a href="#!">About Organisation</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">About Director</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Core Values</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Mission</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Vision</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Objective</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Our Experts</a></li>
+			</ul>
+			
+			<ul id="dropdownProgram" class="dropdown-content">
+				<li><a href="#!">Classroom Program</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Profile Building</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">My Percentile</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Psychometric Councling</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">DMIT Councling</a></li>
+			</ul>
+			
+			<ul id="dropdownLife" class="dropdown-content">
+				<li><a href="#!">Awards & Recognition</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Media</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Gallery</a></li>
+			</ul>
+			
+			<ul id="dropdownStory" class="dropdown-content">
+				<li><a href="#!">Results</a></li>
+			</ul>
+			
+			<ul id="dropdownOthers" class="dropdown-content">
+				<li><a href="#!">Blog</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Downloads</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">E-Book</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Career</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Brochure</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Admission</a></li>
+			    
+			</ul>
+			
+		</header>
+		
+		<main>	
+			<!--banner-->
+			<div class="grey lighten-2">
+				<div class="row">
+					<div class="col s12 m12 center">
+						<p class="indigo-text hide-on-small-only" style="font-size: 3rem;margin-top: 10px;font-weight: 700;">BUILD GAMES, BUILD APPS, BUILD CONFIDENCE</p>
+						<p class="indigo-text hide-on-med-and-up" style="font-size: 1.8rem;margin-top: 10px;font-weight: 700;">BUILD GAMES, BUILD APPS, BUILD CONFIDENCE</p>
+					</div>
+					<div class="col s12 m7 right-align">
+						<img src="images/cgirl.png" style="width:75%;margin-top:-30px"/>
+					</div>
+				</div>
+			</div>
+			
+			<!--Coding for kids-->
+			
+			<div class="row container" style="width:90%">
+				<div class="col s12 m12 center">
+					<p class="indigo-text hide-on-small-only" style="font-size: 4.3rem;margin-top: -10px;font-weight: 800;margin-bottom:0px">CODING FOR KIDS</p>
+					<p class="indigo-text hide-on-med-and-up" style="font-size: 3rem;margin-top: -10px;font-weight: 800;margin-bottom:0px">CODING FOR KIDS</p>
+				</div>
+				<div class="col s12 m12">
+					<p class="indigo-text" style="font-size:1.6rem;margin-top:0px;text-align:justify;text-justify: inter-word;">Coding, or computer programming, is a creative process programmers perform to tell a computer how to perform a task. At its foundation, it involves writing computer programs using programming languages. Coding for kids is usually taught using content that is high-interest while creating projects that involve creative input.</p>
+				</div>
+			</div>
+			
+			<!--icons-->
+			<div class="row">
+				<div class="col s6 m2 offset-m1 center">
+					<div style="border: 2px solid blue">
+						<br class="hide-on-med-and-up">
+						<img src="images/ci1.svg" style="width:50%;"/>
+						<p class="indigo-text" style="font-weight:500">Professional <br>Languages & Tools</p>
+					</div>
+				</div>
+				<div class="col s6 m2 center">
+					<div style="border: 2px solid blue">
+						<br class="hide-on-med-and-up">
+						<img src="images/ci2.svg" style="width:50%;"/>
+						<p class="indigo-text" style="font-weight:500">Build Real Games<br>and Software</p>
+					</div>
+				</div>
+				<div class="col s6 m2 center">
+				<br class="hide-on-med-and-up">
+					<div style="border: 2px solid blue">
+						<br class="hide-on-med-and-up">
+						<img src="images/ci3.svg" style="width:51%;"/>
+						<p class="indigo-text" style="font-weight:500">Fast Helpful<br>Support</p>
+					</div>
+				</div>
+				<div class="col s6 m2 center">
+				<br class="hide-on-med-and-up">
+					<div style="border: 2px solid blue">
+						<br class="hide-on-med-and-up">
+						<img src="images/ci4.svg" style="width:52%;"/>
+						<p class="indigo-text" style="font-weight:500">Being the Next<br>Future Innovators</p>
+					</div>
+				</div>
+				<div class="col s6 m2 center">
+				<br class="hide-on-med-and-up">
+					<div style="border: 2px solid blue">
+						<br class="hide-on-med-and-up">
+						<img src="images/ci5.svg" style="width:46%;"/>
+						<p class="indigo-text" style="font-weight:500">Support from<br>Mentors</p>
+					</div>
+				</div>
+				
+			</div>
+			
+			<!--icons2-->
+			<div class="divBg hide-on-small-only">
+				<div class="row container" style="width:95%">
+					<div class="col s12 m12">
+						<br class="hide-on-small-only">
+						<br class="hide-on-small-only">
+						<br class="hide-on-small-only">
+						<p class="white-text" style="font-size: 2rem;font-weight: 800;margin-bottom:0px">TEACHING NECESSARY</p>
+						<p class="white-text" style="font-size: 2rem;font-weight: 800;margin-bottom:0px;margin-top:0px">21st CENTURY SKILLS TO THE YOUNG GENERATION</p>
+					</div>
+					<div class="col s12 m12">
+						<br>
+						<br>
+						
+					</div>
+					<div class="col s6 m2 center">
+						<img src="images/ci7.svg" style="width:50%;"/>
+						<p class="white-text" style="font-weight:500">HTML & CSS</p>
+					</div>
+					<div class="col s6 m2 center">
+						<img src="images/ci11.svg" style="width:42%;"/>
+						<p class="white-text" style="font-weight:500">JAVASCRIPT</p>
+					</div>
+					<div class="col s6 m2 center">
+						<img src="images/ci8.svg" style="width:50%;"/>
+						<p class="white-text" style="font-weight:500">SCRATCH</p>
+					</div>
+					<div class="col s6 m2 center">
+						<img src="images/ci9.svg" style="width:50%;"/>
+						<p class="white-text" style="font-weight:500">PYTHON</p>
+					</div>
+					<div class="col s6 m2 center">
+						<img src="images/ci6.svg" style="width:45%;"/>
+						<p class="white-text" style="font-weight:500">BLOCKLY</p>
+					</div>
+					<div class="col s6 m2 center">
+						<img src="images/ci10.svg" style="width:50%;"/>
+						<p class="white-text" style="font-weight:500">DATABASE</p>
+					</div>
+					<div class="col s12 m12">
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+					</div>
+				</div>
+			</div>
+			
+			
+			<!--icons2-->
+			<div class="bgcolor hide-on-med-and-up">
+				<div class="row container" style="width:95%">
+					<div class="col s12 m12">
+						<br class="hide-on-small-only">
+						<br class="hide-on-small-only">
+						<br class="hide-on-small-only">
+						<p class="white-text" style="font-size: 1.5rem;font-weight: 800;margin-bottom:0px">TEACHING NECESSARY</p>
+						<p class="white-text" style="font-size: 1.5rem;font-weight: 800;margin-bottom:0px;margin-top:0px">21st CENTURY SKILLS TO THE YOUNG GENERATION</p>
+					</div>
+					<div class="col s12 m12">
+						<br>
+						<br>
+						
+					</div>
+					<div class="col s6 m2 center">
+						<img src="images/ci7.svg" style="width:40%;"/>
+						<p class="white-text" style="font-weight:500">HTML & CSS</p>
+					</div>
+					<div class="col s6 m2 center">
+						<img src="images/ci11.svg" style="width:33%;"/>
+						<p class="white-text" style="font-weight:500">JAVASCRIPT</p>
+					</div>
+					<div class="col s6 m2 center">
+						<img src="images/ci8.svg" style="width:40%;"/>
+						<p class="white-text" style="font-weight:500">SCRATCH</p>
+					</div>
+					<div class="col s6 m2 center">
+						<img src="images/ci9.svg" style="width:40%;"/>
+						<p class="white-text" style="font-weight:500">PYTHON</p>
+					</div>
+					<div class="col s6 m2 center">
+						<img src="images/ci6.svg" style="width:35%;"/>
+						<p class="white-text" style="font-weight:500">BLOCKLY</p>
+					</div>
+					<div class="col s6 m2 center">
+						<img src="images/ci10.svg" style="width:40%;"/>
+						<p class="white-text" style="font-weight:500">DATABASE</p>
+					</div>
+					<div class="col s12 m12">
+						<br>
+						
+					</div>
+				</div>
+			</div>
+			
+			
+			<!--why learn-->
+			<div class="row">
+				<div class="col s12 m12 center">
+					<p class="indigo-text" style="font-size: 2.4rem;margin-top: -10px;font-weight: 800;margin-bottom:10px">WHY SHOULD KIDS LEARN CODING?</p>
+				</div>
+				<div class="col s6 m2 offset-m1 center">
+					<div style="border: 2px solid blue">
+						<br>
+						<img src="images/ci12.svg" style="width:50%;"/>
+						<p class="indigo-text" style="font-weight:500">Logic Improvement</p>
+					</div>
+				</div>
+				<div class="col s6 m2 center">
+					<div style="border: 2px solid blue">
+						<br>
+						<img src="images/ci13.svg" style="width:45%;"/>
+						<p class="indigo-text" style="font-weight:500">Sequencing </p>
+					</div>
+				</div>
+				<div class="col s6 m2 center">
+				<br class="hide-on-med-and-up">
+					<div style="border: 2px solid blue">
+						<br>
+						<img src="images/ci14.svg" style="width:45%;"/>
+						<p class="indigo-text" style="font-weight:500">Structure</p>
+					</div>
+				</div>
+				<div class="col s6 m2 center">
+				<br class="hide-on-med-and-up">
+					<div style="border: 2px solid blue">
+						<br>
+						<img src="images/ci15.svg" style="width:45%;"/>
+						<p class="indigo-text" style="font-weight:500">Algorithmic Thinking</p>
+					</div>
+				</div>
+				<div class="col s6 m2 center">
+				<br class="hide-on-med-and-up">
+					<div style="border: 2px solid blue">
+						<br>
+						<img src="images/ci16.svg" style="width:38%;"/>
+						<p class="indigo-text" style="font-weight:500">Creative Expression</p>
+					</div>
+				</div>
+				
+			</div>
+			
+			<!--fee-->
+			<br>
+			<br>
+			<div class="indigo lighten-5">
+				<div class="row">
+					<div class="col s12 m12 center" style="border-top:1px solid blue;border-bottom:1px solid blue;">
+						<p class="indigo-text" style="font-size: 2rem;margin-top:10px;font-weight:800;margin-bottom:10px">WISDOM360 CODING PROGRAM</p>
+					</div>
+					<table>
+						<thead>
+							<tr>
+								<th class="center indigo-text">Programme</th>
+								<th class="center indigo-text">Grades</th>
+								<th class="center indigo-text">Total Classes</th>
+							</tr>
+						</thead>
+						
+						<tbody>
+							<tr>
+								<td class="center indigo-text">Coding Nurture</td>
+								<td class="center indigo-text">Grade (1-4)</td>
+								<td class="center indigo-text">25</td>
+							</tr>
+							<tr>
+								<td class="center indigo-text">Coding Prodigy</td>
+								<td class="center indigo-text">Grade (5-8)</td>
+								<td class="center indigo-text">25</td>
+							</tr>
+							<tr>
+								<td class="center indigo-text">Coding Genius</td>
+								<td class="center indigo-text">Grade (9-10)</td>
+								<td class="center indigo-text">25</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<br>
+				
+			</div>
+			
+			<!--Courses-->
+			
+			<div class="row container" style="width:90%">
+				<div class="col s12 m12 center">
+					<p class="indigo-text" style="font-size: 3rem;margin-top: 10px;font-weight: 800;margin-bottom:0px">COURSES</p>
+				</div>
+				<div class="col s12 m12 center">
+					<ul class="collapsible">
+						<li>
+							<div class="collapsible-header indigo white-text">CODING NURTURE</div>
+							<div class="collapsible-body">
+								<p class="indigo-text" style="font-size:1.4rem;margin-top:0px;text-align:justify;text-justify: inter-word;;margin-bottom:0px">Coding, or computer programming, is a creative process programmers perform to tell a computer how to perform a task. At its foundation, it involves writing computer programs using programming languages. Coding for kids is usually taught using content that is high-interest while creating projects that involve creative input.</p>
+								<p class="indigo-text" style="font-size:1.4rem;margin-top:0px;text-align:justify;text-justify: inter-word;margin-bottom:0px"><b>Results : </b>By the end of the course, each student will make his/her own a simple unique game, that can be played online and shared with friends and family.</p>
+							</div>
+						</li>
+						<li>
+							<div class="collapsible-header indigo white-text">CODING PRODIGY</div>
+							<div class="collapsible-body">
+								<p class="indigo-text" style="font-size:1.4rem;margin-top:0px;text-align:justify;text-justify: inter-word;;margin-bottom:0px">The main objective of this course will be to learn the concepts of coding at an early stage. The process of problem solving through computer programming will be taught. Designing different algorithms and building computer programs will be taught step by step using Google’s graphics-based coding tool Blockly. The process of writing computer programs will be simplified to a step-by-step block building activity. Writing basic codes in python will be taught.</p>
+								<p class="indigo-text" style="font-size:1.4rem;margin-top:0px;text-align:justify;text-justify: inter-word;margin-bottom:0px"><b>Results : </b>By the end of this course students will be able to make their own algorithms for solving programming problems and execute them in Blockly and Python. This will make a strong base for a career in computer science and engineering.</p>
+							</div>
+						</li>
+						<li>
+							<div class="collapsible-header indigo white-text">CODING GENIUS</div>
+							<div class="collapsible-body">
+								<p class="indigo-text" style="font-size:1.4rem;margin-top:0px;text-align:justify;text-justify: inter-word;;margin-bottom:0px">This course will target learning the concepts of computer programming through teaching some of the milestone algorithms in the world of computer science like binary search, quick sort, bubble sort, shortest path and their implementation using Python, the hottest programming language of the day. Starting with very basic exercises like making their own calculator using Python, the course will help students to build towards writing more advanced algorithms. Familiarizing kids with these concepts at an early stage will give them an accurate idea of what they will be studying if they choose computer science and will serve well in discovering their interest early in computer science.</p>
+								<p class="indigo-text" style="font-size:1.4rem;margin-top:0px;text-align:justify;text-justify: inter-word;margin-bottom:0px"><b>Results : </b>By the end of this course kids will be able to use Python to implement some of the most important algorithms in computer science. This will also serve as a window for kids to look into the world of computer science to pique their interest.</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+			</div>
+			
+			<!--icons2-->
+			<div class="bgcolor">
+				<div class="row container" style="width:95%">
+					<div class="col s12 m12 center">
+						<br>
+						<p class="white-text hide-on-small-only" style="font-size: 3rem;margin-top: 10px;font-weight: 800;margin-bottom:0px">TEACHING PHILOSOPHY</p>
+						<p class="white-text hide-on-med-and-up" style="font-size: 2rem;margin-top: 10px;font-weight: 800;margin-bottom:0px">TEACHING PHILOSOPHY</p>
+					</div>
+					<div class="col s12 m12">
+						<br class="hide-on-small-only">
+						<br class="hide-on-small-only">
+					</div>
+					<div class="col s12 m12">
+						<p class="white-text" style="font-weight:800;font-size:1.2rem;margin-bottom:0px">SMALL BATCH SIZE</p>
+						<p class="white-text" style="font-size:1.2rem;margin-top:5px">Very small batch size for focused attention on each student</p>
+						<p class="white-text" style="font-weight:800;font-size:1.2rem;margin-bottom:0px">ACTIVITY BASED CURRICULUM </p>
+						<p class="white-text" style="font-size:1.2rem;margin-top:5px">Best and innovative curriculum designed for students</p>
+						<p class="white-text" style="font-weight:800;font-size:1.2rem;margin-bottom:0px">LIVE & INTERACTIVE ONLINE TEACHING</p>
+						<p class="white-text" style="font-size:1.2rem;margin-top:5px">Two way interactive media platforms used like Zoom, Skype, Microsoft, Google Duo etc.</p>
+						<p class="white-text" style="font-weight:800;font-size:1.2rem;margin-bottom:0px">BEST TEACHERS</p>
+						<p class="white-text" style="font-size:1.2rem;margin-top:5px">Experts from top institutes like IIT's and other renowned companies delivering customized learning</p>
+						<p class="white-text" style="font-weight:800;font-size:1.2rem;margin-bottom:0px">CERTIFICATION</p>
+						<p class="white-text" style="font-size:1.2rem;margin-top:5px">Certification provided at the end of course certified by alumni of IIT, IISc, IIIT, Google and Amazon for resume building</p>
+					</div>
+					
+					<div class="col s12 m12">
+						<br>
+						<br>  
+					</div>
+				</div>
+			</div>
+			
+			<!--testimonials staff-->
+			
+			<div class="row">
+				<div class="col s12 m12 center">
+					<p class="indigo-text" style="font-size: 2rem;margin-top:10px;font-weight:800;margin-bottom:10px">PROFILE OF CODING FOR KIDS MENTORS</p>
+					
+				</div>
+				<div class="col s12 m12 hide-on-small-only">
+					<br>
+					<div class="slider" id="computerSlider1">
+						<ul class="slides">
+							<li class="white">
+								<br>
+								
+								<div class="row">
+									<div class="col s12 m8 offset-m2 center">
+										
+										<img src="images/t1.png" class="" style="width:60px;height:80px"/>
+										<center><p class="indigo-text" style="font-size:1.1rem;margin-top:10px;margin-bottom:0px"><b><i>Sahil Bhatia (Graduated from Netaji Subash Institute of Technology, B.E – Information Technology and Working at Microsoft Research Lab, Bangalore-2 Years).</i></b>.</p></center>
+										<p class="indigo-text" style="font-size:1.1rem;margin-top:0px;margin-bottom:0px">Coding will always appeal to logical and rational minds and is one of the pillars of problem solving mechanisms in the modern era. It helps broaden intellect and awareness of students making them compatible with modern industry demand. This new initiative from Wisdom 360 to teach young kids programming is a remarkable idea. This will help make a strong foundation for critical thinking at a young age and will be very helpful in the long run.</p>
+									</div>
+								</div>
+							</li>
+							
+							<li class="white">
+								<br>
+								
+								<div class="row">
+									<div class="col s12 m8 offset-m2 center">
+										<img src="images/t2.png" class="" style="width:60px;height:80px"/>
+										<center><p class="indigo-text" style="font-size:1.1rem;margin-top:10px;margin-bottom:0px"><b><i>Alok Singh (Alumnus of Indian Institute of Science, Technocrat with over 20 years’ experience in Semiconductor and Software Industry)</i></b></p></center>
+										<p class="indigo-text" style="font-size:1.1rem;margin-top:0px;margin-bottom:0px">Wisdom 360 Coding module for youngsters is like a joy ride where you not only learn the fundamentals of computing but also learn to apply the learning to practical real life scenarios to solve daily life problems. Program is designed in such a way that it will tease your brain and make you think logically which in turn will help you in taking right decisions at right time in your life. Coding along with personality development! Yes indeed it is.</p>
+									</div>
+								</div>
+							</li>
+							
+							<li class="white">
+								<br>
+								
+								<div class="row">
+									<div class="col s12 m8 offset-m2 center">
+										<img src="images/t3.png" class="" style="width:60px;height:80px"/>
+										<center><p class="indigo-text" style="font-size:1.1rem;margin-top:10px;margin-bottom:0px"><b><i>Prakhar Srivastava (Working as an Application Consultant in Capgemini with 4 years of experience in Business Intelligence Domain and working on Could Services of Microsoft Azure).</i></b>.</p></center>
+										<p class="indigo-text" style="font-size:1.1rem;margin-top:0px;margin-bottom:0px">I think what defines an institute is the content they have and how pragmatic it is when it comes to enthusiastic students who are stepping up a notch and enrolling for their bright future. With this next generation IIT-IIM initiative which is accessible from the comfort of your home, Wisdom360’s Coding program ensures learning to be an endearing experience for young minds. My advice to aspiring children would be to start early to be ahead in the long race of future.</p>
+									</div>
+								</div>
+							</li>
+							
+							<li class="white">
+								
+								<br>
+								<div class="row">
+									<div class="col s12 m8 offset-m2 center">
+										<img src="images/t4.png" class="" style="width:60px;height:80px"/>
+										<center><p class="indigo-text" style="font-size:1.1rem;margin-top:10px;margin-bottom:0px"><b><i>Abhilasha Gupta (Graduated from Madan Mohan Malaviya University of Technology, Gorakhpur, B.Tech in Computer Science and Engineering and currently pursuing PhD from IIT Goa in Machine Learning Area).</i></b>.</p></center>
+										<p class="indigo-text" style="font-size:1.1rem;margin-top:0px;margin-bottom:0px">In today's fast paced life, where gadgets and computers are a necessity, coding will soon be the language we all will be required to speak. I have had the pleasure of knowing Upendra Sir for the last 8 years. He has always been a great mentor and guide. This new initiative from Wisdom 360 to teach young kids programming is a great idea. This will help make the students to think in a logical way since the beginning and also enhance their skills.</p>
+									</div>
+								</div>
+							</li>
+							
+							
+						</ul>
+					</div>
+					
+				</div>
+				
+				
+			<div class="col s12 m12 hide-on-med-and-up">
+					<br>
+					<div class="slider" id="mobileSlider2">
+						<ul class="slides">
+							<li class="white">
+								<br>
+								
+								<div class="row">
+									<div class="col s12 m8 offset-m2 center">
+										
+										<img src="images/t1.png" class="" style="width:60px;height:80px"/>
+										<center><p class="indigo-text" style="font-size:1.1rem;margin-top:10px;margin-bottom:0px"><b><i>Sahil Bhatia (Graduated from Netaji Subash Institute of Technology, B.E – Information Technology and Working at Microsoft Research Lab, Bangalore-2 Years).</i></b>.</p></center>
+										<p class="indigo-text" style="font-size:1.1rem;margin-top:0px;margin-bottom:0px">Coding will always appeal to logical and rational minds and is one of the pillars of problem solving mechanisms in the modern era. It helps broaden intellect and awareness of students making them compatible with modern industry demand. This new initiative from Wisdom 360 to teach young kids programming is a remarkable idea. This will help make a strong foundation for critical thinking at a young age and will be very helpful in the long run.</p>
+									</div>
+								</div>
+							</li>
+							
+							<li class="white">
+								<br>
+								
+								<div class="row">
+									<div class="col s12 m8 offset-m2 center">
+										<img src="images/t2.png" class="" style="width:60px;height:80px"/>
+										<center><p class="indigo-text" style="font-size:1.1rem;margin-top:10px;margin-bottom:0px"><b><i>Alok Singh (Alumnus of Indian Institute of Science, Technocrat with over 20 years’ experience in Semiconductor and Software Industry)</i></b></p></center>
+										<p class="indigo-text" style="font-size:1.1rem;margin-top:0px;margin-bottom:0px">Wisdom 360 Coding module for youngsters is like a joy ride where you not only learn the fundamentals of computing but also learn to apply the learning to practical real life scenarios to solve daily life problems. Program is designed in such a way that it will tease your brain and make you think logically which in turn will help you in taking right decisions at right time in your life. Coding along with personality development! Yes indeed it is.</p>
+									</div>
+								</div>
+							</li>
+							
+							<li class="white">
+								<br>
+								
+								<div class="row">
+									<div class="col s12 m8 offset-m2 center">
+										<img src="images/t3.png" class="" style="width:60px;height:80px"/>
+										<center><p class="indigo-text" style="font-size:1.1rem;margin-top:10px;margin-bottom:0px"><b><i>Prakhar Srivastava (Working as an Application Consultant in Capgemini with 4 years of experience in Business Intelligence Domain and working on Could Services of Microsoft Azure).</i></b>.</p></center>
+										<p class="indigo-text" style="font-size:1.1rem;margin-top:0px;margin-bottom:0px">I think what defines an institute is the content they have and how pragmatic it is when it comes to enthusiastic students who are stepping up a notch and enrolling for their bright future. With this next generation IIT-IIM initiative which is accessible from the comfort of your home, Wisdom360’s Coding program ensures learning to be an endearing experience for young minds. My advice to aspiring children would be to start early to be ahead in the long race of future.</p>
+									</div>
+								</div>
+							</li>
+							
+							<li class="white">
+								
+								<br>
+								<div class="row">
+									<div class="col s12 m8 offset-m2 center">
+										<img src="images/t4.png" class="" style="width:60px;height:80px"/>
+										<center><p class="indigo-text" style="font-size:1.1rem;margin-top:10px;margin-bottom:0px"><b><i>Abhilasha Gupta (Graduated from Madan Mohan Malaviya University of Technology, Gorakhpur, B.Tech in Computer Science and Engineering and currently pursuing PhD from IIT Goa in Machine Learning Area).</i></b>.</p></center>
+										<p class="indigo-text" style="font-size:1.1rem;margin-top:0px;margin-bottom:0px">In today's fast paced life, where gadgets and computers are a necessity, coding will soon be the language we all will be required to speak. I have had the pleasure of knowing Upendra Sir for the last 8 years. He has always been a great mentor and guide. This new initiative from Wisdom 360 to teach young kids programming is a great idea. This will help make the students to think in a logical way since the beginning and also enhance their skills.</p>
+									</div>
+								</div>
+							</li>
+							
+							
+						</ul>
+					</div>
+					
+				</div>
+				</div>
+				
+			
+			<!--Coding for kids-->
+			
+			<div class="row container" style="width:90%">
+				<div class="col s12 m12 center">
+					<p class="indigo-text hide-on-small-only" style="font-size: 3rem;margin-top: -10px;font-weight: 800;margin-bottom:0px">BEGIN YOUR CODING JOURNEY</p>
+					<p class="indigo-text hide-on-med-and-up" style="font-size: 2rem;margin-top: -10px;font-weight: 800;margin-bottom:0px">BEGIN YOUR CODING JOURNEY</p>
+				</div>
+				<div class="col s12 m12 center">
+					<br>
+					<br>
+					<a href=""><img src="images/cbtn.png" style="width:40%;"/></a>
+					<br>
+					<br>
+					<img src="images/fulllogo.svg" style="width:30%;"/>
+				</div>
+			</div>
+			
+			
+			
+			
+		</main>
+		
+		<footer class="page-footer green">
+			<div class="container" style="width:90%">
+				<div class="row">
+					<div class="col l6 s12">
+						<h5 class="white-text">Company Bio</h5>
+						<p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+						
+						
+					</div>
+					<div class="col l3 s12">
+						<h5 class="white-text">Settings</h5>
+						<ul>
+							<li><a class="white-text" href="#!">Link 1</a></li>
+							<li><a class="white-text" href="#!">Link 2</a></li>
+							<li><a class="white-text" href="#!">Link 3</a></li>
+							<li><a class="white-text" href="#!">Link 4</a></li>
+						</ul>
+					</div>
+					<div class="col l3 s12">
+						<h5 class="white-text">Connect</h5>
+						<ul>
+							<li><a class="white-text" href="#!">Link 1</a></li>
+							<li><a class="white-text" href="#!">Link 2</a></li>
+							<li><a class="white-text" href="#!">Link 3</a></li>
+							<li><a class="white-text" href="#!">Link 4</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container">
+					<center><a class="white-text" href="http://ameegolabs.com" target="_blank"> <span style="font-weight:500">Ameego Labs Pvt Ltd</span></a>
+					2020 © Copy Right</center>
+				</div>
+			</div>
+		</footer>
+		
+		
+		<!--  Scripts-->
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="js/materialize.js"></script>
+		<script src="js/init.js"></script>
+		
+	</body>
+</html>

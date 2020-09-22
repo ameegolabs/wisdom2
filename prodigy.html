@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+		<title>WISDOM360</title>
+		<link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32">
+		<link rel="apple-touch-icon-precomposed" href="images/favicon/apple-touch-icon-152x152.png">
+		<meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
+		<meta name="msapplication-TileColor" content="#FFFFFF">
+		
+		<!-- CSS  -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<style>
+			.divBg {
+			background-image: url("images/cbg.png");
+			background-repeat:no-repeat;
+			background-size:cover;
+			background-size: 100% 100%;
+			}
+			
+			.bgcolor{
+			background-color: #f7b42c;
+			background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
+			
+			}
+		</style>
+	</head>
+	<body>
+		
+		<header>
+			<div class="navbar-fixed">
+				<nav class="white z-depth-0" role="navigation" style="border-bottom:1px solid #e0e0e0">
+					<div class="nav-wrapper container" style="width:95%">
+						<a id="logo-container" href="index.html" class="brand-logo">
+							<img src="images/root.png" style="width:2.8rem;"/>
+						</a>
+						<ul class="right hide-on-med-and-down">
+							<li><a href="#" class="grey-text text-darken-2" style="font-weight:500">Home</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownAbout" id="clickId">About us</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownProgram">Programs</a></li>
+							<li><a href="#" class="grey-text text-darken-2" style="font-weight:500">Global Program</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownLife">Life@Wisdom360</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownStory">Success Story</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownOthers">Others</a></li>
+							<li><a href="#" class="grey-text text-darken-2" style="font-weight:500">Contact us</a></li>
+						</ul>
+						<a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons grey-text text-darken-2">menu</i></a>
+					</div>
+				</nav>
+				
+			</div>
+			<!--mobile menu-->
+			<ul id="nav-mobile" class="sidenav">
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;About us &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">About Organisation</a></li>
+									<li><a href="">About Director</a></li>
+									<li><a href="">Core Values</a></li>
+									<li><a href="">Mission</a></li>
+									<li><a href="">Vision</a></li>
+									<li><a href="">Objective</a></li>
+									<li><a href="">Our Experts</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Programs &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">Classroom Program</a></li>
+									<li><a href="">Profile Building</a></li>
+									<li><a href="">My Percentile</a></li>
+									<li><a href="">Psychometric Councling</a></li>
+									<li><a href="">DMIT Councling</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Global Program</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Life@Wisdom360 &nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">Awards & Recognition</a></li>
+									<li><a href="">Media</a></li>
+									<li><a href="">Gallery</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Success Story&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">Results</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Others &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">Blog</a></li>
+									<li><a href="">Downloads</a></li>
+									<li><a href="">E-Book</a></li>
+									<li><a href="">Career</a></li>
+									<li><a href="">Brochure</a></li>
+									<li><a href="">Admission</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Contact us</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+			</ul>
+			
+			<!--dropdown contant-->
+			<ul id="dropdownAbout" class="dropdown-content">
+				<li><a href="#!">About Organisation</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">About Director</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Core Values</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Mission</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Vision</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Objective</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Our Experts</a></li>
+			</ul>
+			
+			<ul id="dropdownProgram" class="dropdown-content">
+				<li><a href="#!">Classroom Program</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Profile Building</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">My Percentile</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Psychometric Councling</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">DMIT Councling</a></li>
+			</ul>
+			
+			<ul id="dropdownLife" class="dropdown-content">
+				<li><a href="#!">Awards & Recognition</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Media</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Gallery</a></li>
+			</ul>
+			
+			<ul id="dropdownStory" class="dropdown-content">
+				<li><a href="#!">Results</a></li>
+			</ul>
+			
+			<ul id="dropdownOthers" class="dropdown-content">
+				<li><a href="#!">Blog</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Downloads</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">E-Book</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Career</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Brochure</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Admission</a></li>
+			    
+			</ul>
+			
+		</header>
+		
+		<main>	
+			
+			<div class="indigo">
+				<div class="row">
+					<div class="col s12 m12 center">
+						<p class="white-text" style="font-size: 60px;font-weight:800;margin-bottom:0px">PRODIGY</p>
+						<p class="white-text" style="margin-top:-10px;font-size:40px">CLASS (V-VIII)</p>
+						<br>
+						<br>
+					</div>
+				</div>
+			</div>
+			
+				<div class="row container" style="width:80%">
+					<div class="col s12 m12 center">
+					<br>
+					<br>
+							<p class="black-text" style="font-size:1.2rem;margin-top:0px;">Wisdom 360’s Prodigy program includes all subjects that are covered for almost all respective boards – CBSE, ICSE, IB and others.  Strong basics of Science and Mathematics are developed at the right age and time and a habit of enquiry is inculcated, which is essential for mastery in any subject. We believe in habituating students for regular study as per schedule. A conceptual framework and understanding of functional significance of each subject is taught, leaving no scope for weak concepts.
+
+							<br>
+							<br>
+							Our tests driven approach for in-depth analysis coupled with regular feedback, evaluates students both on their scholastic & non-scholastic abilities. We emphasize associative & active learning and applied knowledge contrary to rote learning, which is a memorization technique based on repetition.
+							<br>
+							<br>
+							We provide application of Digital Media for easier comprehension and accessibility of information. This builds a strong foundation for Grades IX to XII. We familiarize students with the exam writing strategies, handling exam pressures, and encourage participation in Olympiads. This course is all inclusive of comprehensive support study material, worksheets and tests.
+							</p>
+					</div>
+				</div>
+				
+				<div class="indigo lighten-4">
+					<div class="row container" style="width:80%">
+						<div class="col s12 m12 center">
+							<p class="black-text" style="font-size: 40px;font-weight:700;">SUBJECTS OFFERED</p>
+						</div>
+						
+						<div class="col s12 m3 center">
+						<br>
+							<a class="waves-effect waves-light btn btn-large indigo" style="width:98%;border-radius: 10px;"><b>MATHEMATICS</b></a>
+						</div>
+						
+						<div class="col s12 m3 center">
+							<br>
+							<a class="waves-effect waves-light btn btn-large indigo" style="width:98%;border-radius: 10px;"><b>PHYSICS</b></a>
+						</div>
+						
+						<div class="col s12 m3 center">
+							<br>
+							<a class="waves-effect waves-light btn btn-large indigo" style="width:98%;border-radius: 10px;"><b>CHEMISTRY</b></a>
+						</div>
+						
+						<div class="col s12 m3 center">
+							<br>
+							<a class="waves-effect waves-light btn btn-large indigo" style="width:98%;border-radius: 10px;"><b>BIOLOGY</b></a>
+						</div>
+						
+						<div class="col s12 m3 center">
+							<br>
+							<a class="waves-effect waves-light btn btn-large indigo" style="width:98%;border-radius: 10px;"><b>COMPUTER</b></a>
+						</div>
+						
+						<div class="col s12 m3 center">
+							<br>
+							<a class="waves-effect waves-light btn btn-large indigo" style="width:98%;border-radius: 10px;"><b>ENGLISH</b></a>
+						</div>
+						
+						<div class="col s12 m3 center">
+							<br>
+							<a class="waves-effect waves-light btn btn-large indigo" style="width:98%;border-radius: 10px;"><b>SOCIAL STUDIES</b></a>
+						</div>
+						
+						<div class="col s12 m3 center">
+							<br>
+							<a class="waves-effect waves-light btn btn-large indigo" style="width:98%;border-radius: 10px;"><b>HINDI</b></a>
+						</div>
+						<div class="col s12 m12 center">
+							<br>
+							<p style="font-size:1.2rem;font-weight:600" class="indigo-text">ARRANGED FOR OLYMPIADS AND COMPETITIVE EXAMINATION</p>
+							<br>
+							<br>
+						</div>
+						
+					</div>
+				</div>
+				
+				<div class="row container" style="width:80%">
+					<div class="col s12 m12 center">
+						<p class="black-text" style="font-size: 40px;font-weight:700;margin-bottom:0px">WEEKLY SCHEDULE</p>
+						<p class="black-text" style="font-size: 25px;margin-top:0px">(TOTAL = 18HOURS)</p>
+					</div>
+					<!--<div class="col s12 m4 center">
+					<br>
+						<div style="border:2px solid blue;border-radius:16px">
+							<img src="images/pro2.png" style="width:50%">
+							<p class="indigo-text"style="margin-top:-20px"><b>Timings<br>4:30PM - 7:30PM</b></p>
+						</div>
+					</div>
+					<div class="col s12 m4 center">
+					<br>
+						<div style="border:2px solid blue;border-radius:16px">
+							<img src="images/pro1.png" style="width:50%">
+							<p class="indigo-text"style="margin-top:-20px"><b>Days Monday - Saturday & <br>Day Time on Sunday</b></p>
+						</div>
+					</div>-->
+					<div class="col s12 m4 center">
+					<br>
+						<div style="border:2px solid blue;border-radius:16px">
+							<img src="images/pro3.png" style="width:50%">
+							<p class="indigo-text"style="margin-top:-20px"><b>Teaching/Revision/<br>Doubt Classes 15 Hours</b></p>
+						</div>
+					</div>
+					<div class="col s12 m4 center">
+					<br>
+						<div style="border:2px solid blue;border-radius:16px">
+							<img src="images/pro4.png" style="width:50%">
+							<p class="indigo-text"style="margin-top:-20px"><b>Quiz/Tests<br>3Hours</b></p>
+						</div>
+					</div>
+					<div class="col s12 m4 center">
+					<br>
+						<div style="border:2px solid blue;border-radius:16px">
+							<img src="images/pro5.png" style="width:50%">
+							<p class="indigo-text"style="margin-top:-20px"><b>Programm Type<br>Classroom & Online</b></p>
+						</div>
+					</div>
+					<!--<div class="col s12 m4 center">
+					<br>
+						<div style="border:2px solid blue;border-radius:16px">
+							<img src="images/pro6.png" style="width:50%">
+							<p class="indigo-text"style="margin-top:-20px"><b>Special Classes Arranged<br>For Optional subjects</b></p>
+						</div>
+					</div>-->
+					
+				</div>
+				<br>
+				<br>
+				<div class="indigo lighten-5">
+					<div class="row container" style="width:80%;margin-bottom:0px">
+						<div class="col s12 m12 center hide-on-small-only">
+							<p class="black-text" style="font-size: 40px;font-weight:700;">Now a click away with our <br>LIVE online classes on Youtube</p>
+							<iframe width="70%" height="400" src="https://www.youtube.com/embed/W3uD5w6Zzao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<br>
+							<br>
+							<br>
+						</div>
+						<div class="col s12 m12 center hide-on-med-and-up">
+							<p class="black-text" style="font-size: 30px;font-weight:700;">Now a click away with our <br>LIVE online classes on Youtube</p>
+							<iframe width="100%" height="200" src="https://www.youtube.com/embed/W3uD5w6Zzao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<br>
+							<br>
+							<br>
+						</div>
+						
+					</div>
+				</div>
+				
+			
+		</main>
+		
+		<footer class="page-footer green">
+			<div class="container" style="width:90%">
+				<div class="row">
+					<div class="col l6 s12">
+						<h5 class="white-text">Company Bio</h5>
+						<p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+						
+						
+					</div>
+					<div class="col l3 s12">
+						<h5 class="white-text">Settings</h5>
+						<ul>
+							<li><a class="white-text" href="#!">Link 1</a></li>
+							<li><a class="white-text" href="#!">Link 2</a></li>
+							<li><a class="white-text" href="#!">Link 3</a></li>
+							<li><a class="white-text" href="#!">Link 4</a></li>
+						</ul>
+					</div>
+					<div class="col l3 s12">
+						<h5 class="white-text">Connect</h5>
+						<ul>
+							<li><a class="white-text" href="#!">Link 1</a></li>
+							<li><a class="white-text" href="#!">Link 2</a></li>
+							<li><a class="white-text" href="#!">Link 3</a></li>
+							<li><a class="white-text" href="#!">Link 4</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container">
+					<center><a class="white-text" href="http://ameegolabs.com" target="_blank"> <span style="font-weight:500">Ameego Labs Pvt Ltd</span></a>
+					2020 © Copy Right</center>
+				</div>
+			</div>
+		</footer>
+		
+		
+		<!--  Scripts-->
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="js/materialize.js"></script>
+		<script src="js/init.js"></script>
+		
+	</body>
+</html>

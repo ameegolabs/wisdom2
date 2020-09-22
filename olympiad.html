@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+		<title>WISDOM360</title>
+		<link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32">
+		<link rel="apple-touch-icon-precomposed" href="images/favicon/apple-touch-icon-152x152.png">
+		<meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
+		<meta name="msapplication-TileColor" content="#FFFFFF">
+		
+		<!-- CSS  -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		
+		<style>
+			.fullBackground {
+			height: 100%;
+			background: linear-gradient(90deg, white 51%, #8ac63f 49%);
+			}
+		</style>
+		
+	</head>
+	<body>
+		
+		<header>
+			<div class="navbar-fixed">
+				<nav class="white z-depth-0" role="navigation" style="border-bottom:1px solid #e0e0e0">
+					<div class="nav-wrapper container" style="width:95%">
+						<a id="logo-container" href="index.html" class="brand-logo">
+							<img src="images/root.png" style="width:2.8rem;"/>
+						</a>
+						<ul class="right hide-on-med-and-down">
+							<li><a href="#" class="grey-text text-darken-2" style="font-weight:500">Home</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownAbout" id="clickId">About us</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownProgram">Programs</a></li>
+							<li><a href="#" class="grey-text text-darken-2" style="font-weight:500">Global Program</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownLife">Life@Wisdom360</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownStory">Success Story</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownOthers">Others</a></li>
+							<li><a href="#" class="grey-text text-darken-2" style="font-weight:500">Contact us</a></li>
+						</ul>
+						<a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons grey-text text-darken-2">menu</i></a>
+					</div>
+				</nav>
+				
+			</div>
+			<!--mobile menu-->
+			<ul id="nav-mobile" class="sidenav">
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;About us &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">About Organisation</a></li>
+									<li><a href="">About Director</a></li>
+									<li><a href="">Core Values</a></li>
+									<li><a href="">Mission</a></li>
+									<li><a href="">Vision</a></li>
+									<li><a href="">Objective</a></li>
+									<li><a href="">Our Experts</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Programs &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">Classroom Program</a></li>
+									<li><a href="">Profile Building</a></li>
+									<li><a href="">My Percentile</a></li>
+									<li><a href="">Psychometric Councling</a></li>
+									<li><a href="">DMIT Councling</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Global Program</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Life@Wisdom360 &nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">Awards & Recognition</a></li>
+									<li><a href="">Media</a></li>
+									<li><a href="">Gallery</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Success Story&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">Results</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Others &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">Blog</a></li>
+									<li><a href="">Downloads</a></li>
+									<li><a href="">E-Book</a></li>
+									<li><a href="">Career</a></li>
+									<li><a href="">Brochure</a></li>
+									<li><a href="">Admission</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Contact us</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+			</ul>
+			
+			<!--dropdown contant-->
+			<ul id="dropdownAbout" class="dropdown-content">
+				<li><a href="#!">About Organisation</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">About Director</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Core Values</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Mission</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Vision</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Objective</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Our Experts</a></li>
+			</ul>
+			
+			<ul id="dropdownProgram" class="dropdown-content">
+				<li><a href="#!">Classroom Program</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Profile Building</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">My Percentile</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Psychometric Councling</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">DMIT Councling</a></li>
+			</ul>
+			
+			<ul id="dropdownLife" class="dropdown-content">
+				<li><a href="#!">Awards & Recognition</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Media</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Gallery</a></li>
+			</ul>
+			
+			<ul id="dropdownStory" class="dropdown-content">
+				<li><a href="#!">Results</a></li>
+			</ul>
+			
+			<ul id="dropdownOthers" class="dropdown-content">
+				<li><a href="#!">Blog</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Downloads</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">E-Book</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Career</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Brochure</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Admission</a></li>
+			    
+			</ul>
+			
+		</header>
+		
+		<main>
+			<!--banner-->
+			<div class="fullBackground hide-on-small-only">
+				<div class="row" style="margin-bottom:0px">
+					<div class="col s12 m12 center">
+						<br>
+						<img src="images/child.png" style="width:40%"/>
+					</div>
+					<div class="col s12 m6">
+						<p class="indigo-text" style="margin-left:40px;margin-top:-50px;font-weight:600;text-align:justify;text-justify: inter-word;">Wisdom360's Olympiad preparation provides an objective and in-depth practice platform to students preparing for Olympiad examinations. Our leading edge is the result of our domain expertise and instruction design skills. The creation of quality learning solutions is made possible by our highly talented team helping students in mastering complex concepts.<br><br></p>
+					</div>
+				</div>
+			</div>
+			<div class="fullBackground hide-on-med-and-up">
+				<div class="row container" style="width:95%" style="margin-bottom:0px">
+					<div class="col s12 m12 center">
+						<br>
+						<br>
+						<br>
+						<img src="images/child.png" style="width:75%"/>
+						<br>
+						<br>
+						<br>
+					</div>
+				</div>
+			</div>
+			<div class="row container hide-on-med-and-up" style="width:95%;margin-top:0px;margin-bottom:0px">
+				<div class="col s12 m6">
+					<p class="indigo-text" style="font-weight:600;margin-top:0px;text-align:justify;text-justify: inter-word;">Wisdom360's Olympiad preparation provides an objective and in-depth practice platform to students preparing for Olympiad examinations. Our leading edge is the result of our domain expertise and instruction design skills. The creation of quality learning solutions is made possible by our highly talented team helping students in mastering complex concepts.<br><br><br></p>
+				</div>
+			</div>
+			
+			<!--second div-->
+			<div class="indigo">
+				<div class="row container" style="width:90%;width:90%;margin-top:0px;margin-bottom:0px" >
+					<div class="col s12 m12 white-text hide-on-small-only">
+						<p style="font-size: 2.2rem;font-weight: 800;">• VAST EXPERIENCE OF TESTING AND ASSESSING</p>
+						<p style="font-size: 2.2rem;font-weight: 800;">• STRATEGIES FOR ACADEMIC EXCELLENCE OF STUDENTS</p>
+						<p style="font-size: 2.2rem;font-weight: 800;">• EMPOWER STUDENTS WITH A CAPABILITY OF HANDLING <br>&nbsp;&nbsp;COMPETITIVE EXAMS WITH CONFIDENCE</p>
+					</div>
+					<div class="col s12 m12 white-text hide-on-med-and-up">
+						<p style="font-size: 1.2rem;font-weight: 700;">• VAST EXPERIENCE OF TESTING <br>&nbsp;&nbsp;&nbsp;AND ASSESSING</p>
+						<p style="font-size: 1.2rem;font-weight: 700;">• STRATEGIES FOR ACADEMIC <br>&nbsp;&nbsp;&nbsp;EXCELLENCE OF STUDENTS</p>
+						<p style="font-size: 1.2rem;font-weight: 700;">• EMPOWER STUDENTS WITH A <br>&nbsp;&nbsp;CAPABILITY OF HANDLING <br>&nbsp;&nbsp;COMPETITIVE EXAMS WITH <br>&nbsp;&nbsp;CONFIDENCE</p>
+					</div>
+				</div>
+			</div>
+			
+			<div style="background-color:#85c6c0" class="hide-on-small-only">
+				<div class="row container" style="width:85%;margin-bottom:0px">
+					<div class="col s12 m6">
+						<p class="white-text hide-on-small-only" style="font-size:3.4rem;font-weight: 700;margin-bottom:0px">WHY OLYMPIADS ?</p>
+						<p class="white-text" style="margin-top:0px;font-size:1.2rem;font-weight: 700;">Preparation of Competitive Exams</p>
+						<p class="white-text" style="margin-top:0px;font-size:1.2rem;margin-bottom:0px">&bull;&nbsp;Conceptual understanding</p>
+						<p class="white-text" style="margin-top:0px;font-size:1.2rem;margin-bottom:0px">&bull;&nbsp;Problem solving</p>
+						<p class="white-text" style="margin-top:0px;font-size:1.2rem;margin-bottom:0px">&bull;&nbsp;Time management</p>
+						<p class="white-text" style="margin-top:0px;font-size:1.2rem">&bull;&nbsp;MCQ format</p>
+						
+						
+						<p class="white-text" style="margin-top:0px;font-size:1.2rem;font-weight: 700;">Application for Higher Studies</p>
+						<p class="white-text" style="margin-top:0px;font-size:1.2rem;margin-bottom:0px">&bull;&nbsp;Useful for Undergraduate Programs outside of India</p>
+						<p class="white-text" style="margin-top:0px;font-size:1.2rem">&bull;&nbsp;Beneficial for Undergraduate studies in premiere <br>&nbsp;&nbsp;research institutes in Indiag</p>
+						
+						<p class="white-text" style="margin-top:0px;font-size:1.2rem;font-weight: 700;">Job Prospects</p>
+						<p class="white-text" style="margin-top:0px;font-size:1.2rem;margin-bottom:0px">&bull;&nbsp;Olympiad ranks’ add to academic credentials</p>
+						<p class="white-text" style="margin-top:0px;font-size:1.2rem">&bull;&nbsp;Highlights subject strength in the resume</p>
+						
+					</div>
+					<div class="col s12 m6 center hide-on-small-only">
+						<br>
+						<br>
+						<img src="images/child1.png" style="width:90%"/>
+					</div>
+				</div>
+			</div>
+			
+			<div style="background-color:#85c6c0" class="hide-on-med-and-up">
+				<div class="row container" style="width:85%;margin-bottom:0px">
+					<div class="col s12 m6">
+						<p class="white-text hide-on-med-and-up center" style="font-size:2.5rem;font-weight: 700;margin-bottom:0px">WHY OLYMPIADS ?</p>
+						<p class="hide-on-med-and-up center"><img src="images/child1.png" style="width:90%"/></p>
+						<p class="white-text" style="margin-top:0px;font-size:1.2rem;font-weight: 700;">Preparation of Competitive Exams</p>
+						<p class="white-text" style="margin-top:0px;font-size:1.2rem;margin-bottom:0px">&bull;&nbsp;Conceptual understanding</p>
+						<p class="white-text" style="margin-top:0px;font-size:1.2rem;margin-bottom:0px">&bull;&nbsp;Problem solving</p>
+						<p class="white-text" style="margin-top:0px;font-size:1.2rem;margin-bottom:0px">&bull;&nbsp;Time management</p>
+						<p class="white-text" style="margin-top:0px;font-size:1.2rem">&bull;&nbsp;MCQ format</p>
+						
+						
+						<p class="white-text" style="margin-top:0px;font-size:1.2rem;font-weight: 700;">Application for Higher Studies</p>
+						<p class="white-text" style="margin-top:0px;font-size:1.2rem;margin-bottom:0px">&bull;&nbsp;Useful for Undergraduate Programs <br>&nbsp;&nbsp;outside of India</p>
+						<p class="white-text" style="margin-top:0px;font-size:1.2rem">&bull;&nbsp;Beneficial for Undergraduate studies <br>&nbsp;&nbsp;in premiere research institutes in <br>&nbsp;&nbsp;India</p>
+						
+						<p class="white-text" style="margin-top:0px;font-size:1.2rem;font-weight: 700;">Job Prospects</p>
+						<p class="white-text" style="margin-top:0px;font-size:1.2rem;margin-bottom:0px">&bull;&nbsp;Olympiad ranks’ add to academic <br>&nbsp;&nbsp;credentials</p>
+						<p class="white-text" style="margin-top:0px;font-size:1.2rem">&bull;&nbsp;Highlights subject strength in the <br>&nbsp;&nbsp;resume</p>
+						
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="indigo">
+				<div class="row">
+					<div class="col s12 m5 hide-on-small-only" style="padding: 0 0;">
+						<img src="images/offer1.png" style="width:80%"/>
+					</div>
+					<div class="col s12 m5 hide-on-med-and-up" style="padding: 0 0;">
+						<img src="images/offer1.png" style="width:100%"/>
+					</div>
+					<div class="col s12 m6 hide-on-small-only">
+						<br class="hide-on-small-only">
+						<br>
+						<ol class="white-text" style="font-size:1.4rem;font-weight:600">
+							<li>25 lectures in every subject</li>
+							<li>Past year actual question papers (Online Mode)</li>
+							<li>Chapter wise analysis of previous year papers.</li>
+							<li>Chapter wise worksheets - similar to last year question paper</li>
+							<li>Fresh practice worksheets based on syllabus</li>
+							<li>Program type : ONLINE</li>
+						</ol>
+						<br class="hide-on-med-and-up">
+					</div>
+					<div class="col s12 m6 hide-on-med-and-up">
+						<br class="hide-on-small-only">
+						<br>
+						<ol class="white-text" style="font-size:1.2rem;font-weight:600">
+							<li>25 lectures in every subject</li>
+							<li>Past year actual question papers (Online Mode)</li>
+							<li>Chapter wise analysis of previous year papers.</li>
+							<li>Chapter wise worksheets - similar to last year question paper</li>
+							<li>Fresh practice worksheets based on syllabus</li>
+							<li>Program type : ONLINE</li>
+						</ol>
+						<br class="hide-on-med-and-up">
+					</div>
+				</div>
+			</div>
+			
+			<div class="row container" style="width:95%">
+				<div class="col s12 m12 center">
+					<p class="indigo-text hide-on-small-only" style="font-size: 60px;font-weight:800;margin-bottom:0px;margin-top:0px">COURSES</p>
+					<p class="indigo-text hide-on-med-and-up" style="font-size: 30px;font-weight:800;margin-bottom:0px;margin-top:0px">COURSES</p>
+				</div>
+				<div class="col s12 m12">
+					
+					<ul class="collapsible">
+						<li>
+							<div class="collapsible-header"><p class="indigo-text" style="font-size:1rem;font-weight:700;margin:0 0">NURTURE GRADES (I,II,III.&,IV)</p></div>
+							<div class="collapsible-body">
+								<div class="row">
+									<div class="col s12 m12">
+										<img src="images/tb1.png" style="width:100%"/>
+									</div>
+									<div class="col s12 m12">
+										<p class="indigo-text">*NCO – National Cyber Olympiad, NSO – National Science Olympiad, IMO – International Mathematics Olympiad, IEO – International English Olympiad, IGKO – International General Knowledge Olympiad, ICO - International Commerce Olympiad</p>
+										<p class="indigo-text">**UCO – Unified Cyber Olympiad, UIEO – Unified International English Olympiad, UIMO – Unified International Mathematics Olympiad, NSTSE – National Level Science Talent Search Examination</p>
+										<p class="indigo-text">***NMTC – National Mathematics Talent Contests, NSEJS – National Standard Examination in Junior Science, PRMO – Pre-Regional Mathematics Olympiad, NSEB - National Standard Examination In Biology, NSEC - National Standard Examination in Chemistry, NSEP - National Standard Examination in Physics, ICO - Indian Computing Olympiad</p>
+										<h5 class="indigo-text center" style="margin-bottom:0px"><b>FEE APPLICABLE PER SUBJECT</b></5>
+									</div>
+									
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="collapsible-header"><p class="indigo-text" style="font-size:1rem;font-weight:700;margin:0 0">PRODIGY GRADES (V,VI,VII.&,VIII)</p></div>
+							<div class="collapsible-body">
+								<div class="row">
+									<div class="col s12 m12">
+										<img src="images/tb2.png" style="width:100%"/>
+										<h5 class="indigo-text center"><b>OLYMPIADS CONDUCTED BY GOVERNMENT</b></5>
+										<img src="images/tb3.png" style="width:100%"/>
+									</div>
+									<div class="col s12 m12">
+										<p class="indigo-text">*NCO – National Cyber Olympiad, NSO – National Science Olympiad, IMO – International Mathematics Olympiad, IEO – International English Olympiad, IGKO – International General Knowledge Olympiad, ICO - International Commerce Olympiad</p>
+										<p class="indigo-text">**UCO – Unified Cyber Olympiad, UIEO – Unified International English Olympiad, UIMO – Unified International Mathematics Olympiad, NSTSE – National Level Science Talent Search Examination</p>
+										<p class="indigo-text">***NMTC – National Mathematics Talent Contests, NSEJS – National Standard Examination in Junior Science, PRMO – Pre-Regional Mathematics Olympiad, NSEB - National Standard Examination In Biology, NSEC - National Standard Examination in Chemistry, NSEP - National Standard Examination in Physics, ICO - Indian Computing Olympiad</p>
+										<h5 class="indigo-text center" style="margin-bottom:0px"><b>FEE APPLICABLE PER SUBJECT</b></5>
+									</div>
+									
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="collapsible-header"><p class="indigo-text" style="font-size:1rem;font-weight:700;margin:0 0">GENIUS GRADES (IX & X)</p></div>
+							<div class="collapsible-body">
+								<div class="row">
+									<div class="col s12 m12">
+										<img src="images/tb4.png" style="width:100%"/>
+										<h5 class="indigo-text center"><b>OLYMPIADS CONDUCTED BY GOVERNMENT</b></5>
+										<img src="images/tb5.png" style="width:100%"/>
+									</div>
+									<div class="col s12 m12">
+										<p class="indigo-text">*NCO – National Cyber Olympiad, NSO – National Science Olympiad, IMO – International Mathematics Olympiad, IEO – International English Olympiad, IGKO – International General Knowledge Olympiad, ICO - International Commerce Olympiad</p>
+										<p class="indigo-text">**UCO – Unified Cyber Olympiad, UIEO – Unified International English Olympiad, UIMO – Unified International Mathematics Olympiad, NSTSE – National Level Science Talent Search Examination</p>
+										<p class="indigo-text">***NMTC – National Mathematics Talent Contests, NSEJS – National Standard Examination in Junior Science, PRMO – Pre-Regional Mathematics Olympiad, NSEB - National Standard Examination In Biology, NSEC - National Standard Examination in Chemistry, NSEP - National Standard Examination in Physics, ICO - Indian Computing Olympiad</p>
+										<h5 class="indigo-text center" style="margin-bottom:0px"><b>FEE APPLICABLE PER SUBJECT</b></5>
+									</div>
+									
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="collapsible-header"><p class="indigo-text" style="font-size:1rem;font-weight:700;margin:0 0">SCHOLAR GRADES (XI & XII)</p></div>
+							<div class="collapsible-body">
+								<div class="row">
+									<div class="col s12 m12">
+										<img src="images/tb6.png" style="width:100%"/>
+										<h5 class="indigo-text center"><b>OLYMPIADS CONDUCTED BY GOVERNMENT</b></5>
+										<img src="images/tb7.png" style="width:100%"/>
+									</div>
+									<div class="col s12 m12">
+										<p class="indigo-text">*NCO – National Cyber Olympiad, NSO – National Science Olympiad, IMO – International Mathematics Olympiad, IEO – International English Olympiad, IGKO – International General Knowledge Olympiad, ICO - International Commerce Olympiad</p>
+										<p class="indigo-text">**UCO – Unified Cyber Olympiad, UIEO – Unified International English Olympiad, UIMO – Unified International Mathematics Olympiad, NSTSE – National Level Science Talent Search Examination</p>
+										<p class="indigo-text">***NMTC – National Mathematics Talent Contests, NSEJS – National Standard Examination in Junior Science, PRMO – Pre-Regional Mathematics Olympiad, NSEB - National Standard Examination In Biology, NSEC - National Standard Examination in Chemistry, NSEP - National Standard Examination in Physics, ICO - Indian Computing Olympiad</p>
+										<h5 class="indigo-text center" style="margin-bottom:0px"><b>FEE APPLICABLE PER SUBJECT</b></5>
+									</div>
+									
+								</div>
+							</div>
+						</li>
+					</ul>
+					
+					
+					
+				</div>
+				
+			</div>
+			
+			<div style="background-color:#0059a4">
+				<div class="row container" style="width:90%;margin-bottom:0px;">
+					<br>
+					<div class="col s2 m1 center">
+						<br class="hide-on-med-and-up">
+						<br class="hide-on-med-and-up">
+						<img src="images/o1.png" style="width:100%"/>
+					</div>
+					<div class="col s10 m5">
+						<p class="white-text" style="font-size:1.2rem;"><b>Unique Teaching Methodology :</b> Experts in their respective fields and subjects with years of experience.</p>
+					</div>
+					<div class="col s2 m1 center">
+						<br class="hide-on-med-and-up">
+						<br class="hide-on-med-and-up">
+						<img src="images/o6.png" style="width:100%"/>
+					</div>
+					<div class="col s10 m5">
+						<p class="white-text" style="font-size:1.2rem;"><b>Revision : </b>Review of earlier attempted worksheet for quick revision</p>
+					</div>
+				</div>
+				
+				<div class="row container" style="width:90%;margin-bottom:0px;">
+					<br>
+					<div class="col s2 m1 center">
+						<br class="hide-on-med-and-up">
+						<br class="hide-on-med-and-up">
+						<img src="images/o2.png" style="width:100%"/>
+					</div>
+					<div class="col s10 m5">
+						<p class="white-text" style="font-size:1.2rem;"><b>Study Material : </b>Exhaustive study material with rich visuals covering entire syllabus.</p>
+					</div>
+					<div class="col s2 m1 center">
+						<br class="hide-on-med-and-up">
+						<img src="images/o7.png" style="width:100%"/>
+					</div>
+					<div class="col s10 m5">
+						<p class="white-text" style="font-size:1.2rem;"><b>Evaluation :</b> Regular analysis on performance.</p>
+					</div>
+				</div>
+				
+				<div class="row container" style="width:90%;margin-bottom:0px;">
+					<br>
+					<div class="col s2 m1 center">
+						<br class="hide-on-med-and-up">
+						<br class="hide-on-med-and-up">
+						<img src="images/o3.png" style="width:100%"/>
+					</div>
+					<div class="col s10 m5">
+						<p class="white-text" style="font-size:1.2rem;"><b>Rich Question Bank :</b> Topic wise/ Chapter Wise Question bank to help in preparations.</p>
+					</div>
+					<div class="col s2 m1 center">
+						<br class="hide-on-med-and-up">
+						<br class="hide-on-med-and-up">
+						<img src="images/o8.png" style="width:100%"/>
+					</div>
+					<div class="col s10 m5">
+						<p class="white-text" style="font-size:1.2rem;"><b>Progress Notifications :</b> Regular notification on performance and progress.</p>
+					</div>
+				</div>
+				
+				<div class="row container" style="width:90%;margin-bottom:0px;">
+					<br>
+					<div class="col s2 m1 center">
+						<br class="hide-on-med-and-up">
+						<img src="images/o4.png" style="width:100%"/>
+					</div>
+					<div class="col s10 m5">
+						<p class="white-text" style="font-size:1.2rem;"><b>Worksheets :</b> Extensive Practice Worksheets.</p>
+					</div>
+					<div class="col s2 m1 center">
+						<br class="hide-on-med-and-up">
+						<img src="images/o5.png" style="width:100%"/>
+					</div>
+					<div class="col s10 m5">
+						<p class="white-text" style="font-size:1.2rem;"><b>Mock Tests :</b> Full - length model test papers.</p>
+					</div>
+				</div>
+				
+				<div class="row container" style="width:90%;margin-bottom:0px;">
+					<br>
+					
+					<div class="col s2 m1 center">
+						<br class="hide-on-med-and-up">
+						<br class="hide-on-med-and-up">
+						<img src="images/o9.png" style="width:100%"/>
+					</div>
+					<div class="col s10 m5">
+						<p class="white-text" style="font-size:1.2rem;"><b>Ask Doubts and Send Feedback : </b>Send feedback or doubts if in need of description or explanation on anything related to course.</p>
+					</div>
+				</div>
+				
+				
+			</div>
+			
+			<div class="row container" style="width:90%;">
+				<div class="col s12 m8 center">
+					<p class="indigo-text hide-on-small-only" style="font-size:3rem;font-weight:800">“AN INVESTMENT IN KNOWLEDGE PAYS THE BEST INTEREST”</p>
+					<p class="indigo-text hide-on-med-and-up" style="font-size:1.6rem;font-weight:800">“AN INVESTMENT IN KNOWLEDGE PAYS THE BEST INTEREST”</p>
+					<p class="indigo-text hide-on-small-only" style="font-size:1.1rem;font-weight:600;margin-top:-40px">-Benjamin Franklin</p>
+					<p class="indigo-text hide-on-med-and-up" style="font-size:1.1rem;font-weight:600;margin-top:-20px">-Benjamin Franklin</p>
+				</div>
+				<div class="col s12 m4 center">
+					<br class="hide-on-small-only">
+					<br class="hide-on-small-only">
+					<br class="hide-on-small-only">
+					<br>
+					
+					
+					<a href="#"><img src="images/cbtn.png" style="width:60%"/></a>
+					<br>
+					<br>
+					
+					<br class="hide-on-small-only">
+					<br class="hide-on-small-only">
+					<br class="hide-on-small-only">
+				</div>
+			</div>
+			
+		</main>
+		
+		<footer class="page-footer green">
+			<div class="container" style="width:90%">
+				<div class="row">
+					<div class="col l6 s12">
+						<h5 class="white-text">Company Bio</h5>
+						<p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+						
+						
+					</div>
+					<div class="col l3 s12">
+						<h5 class="white-text">Settings</h5>
+						<ul>
+							<li><a class="white-text" href="#!">Link 1</a></li>
+							<li><a class="white-text" href="#!">Link 2</a></li>
+							<li><a class="white-text" href="#!">Link 3</a></li>
+							<li><a class="white-text" href="#!">Link 4</a></li>
+						</ul>
+					</div>
+					<div class="col l3 s12">
+						<h5 class="white-text">Connect</h5>
+						<ul>
+							<li><a class="white-text" href="#!">Link 1</a></li>
+							<li><a class="white-text" href="#!">Link 2</a></li>
+							<li><a class="white-text" href="#!">Link 3</a></li>
+							<li><a class="white-text" href="#!">Link 4</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container">
+					<center><a class="white-text" href="http://ameegolabs.com" target="_blank"> <span style="font-weight:500">Ameego Labs Pvt Ltd</span></a>
+					2020 © Copy Right</center>
+				</div>
+			</div>
+		</footer>
+		
+		
+		<!--  Scripts-->
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="js/materialize.js"></script>
+		<script src="js/init.js"></script>
+		
+	</body>
+</html>

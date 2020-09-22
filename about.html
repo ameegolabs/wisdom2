@@ -1,0 +1,1215 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+		<title>WISDOM360</title>
+		<link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32">
+		<link rel="apple-touch-icon-precomposed" href="images/favicon/apple-touch-icon-152x152.png">
+		<meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
+		<meta name="msapplication-TileColor" content="#FFFFFF">
+		
+		<!-- CSS  -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<style>
+			.divBg {
+			background-image: url("images/cbg.png");
+			background-repeat:no-repeat;
+			background-size:cover;
+			background-size: 100% 100%;
+			}
+			.bgcolor{
+			background-color: #f7b42c;
+			background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
+			
+			}
+			.sideBorder{
+			border-right-style: solid;border-right-width: thin; border-color:grey;
+			}
+			@media only screen and (max-width: 600px) {
+			.sideBorder{
+			border-right-style: none;
+			}
+			}
+			
+			.udanbg{
+			background-image:url("images/udanbg.png");
+			background-repeat:no-repeat;
+			background-size:cover;
+			background-size: 100% 100%;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<header>
+			<div class="navbar-fixed">
+				<nav class="white z-depth-0" role="navigation" style="border-bottom:1px solid #e0e0e0">
+					<div class="nav-wrapper container" style="width:95%">
+						<a id="logo-container" href="index.html" class="brand-logo">
+							<img src="images/root.png" style="width:2.8rem;"/>
+						</a>
+						<ul class="right hide-on-med-and-down">
+							<li><a href="#" class="grey-text text-darken-2" style="font-weight:500">Home</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownAbout" id="clickId">About us</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownProgram">Programs</a></li>
+							<li><a href="#" class="grey-text text-darken-2" style="font-weight:500">Global Program</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownLife">Life@Wisdom360</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownStory">Success Story</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownOthers">Others</a></li>
+							<li><a href="#" class="grey-text text-darken-2" style="font-weight:500">Contact us</a></li>
+						</ul>
+						<a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons grey-text text-darken-2">menu</i></a>
+					</div>
+				</nav>
+				
+			</div>
+			<!--mobile menu-->
+			<ul id="nav-mobile" class="sidenav">
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;About us &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">About Organisation</a></li>
+									<li><a href="">About Director</a></li>
+									<li><a href="">Core Values</a></li>
+									<li><a href="">Mission</a></li>
+									<li><a href="">Vision</a></li>
+									<li><a href="">Objective</a></li>
+									<li><a href="">Our Experts</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Programs &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">Classroom Program</a></li>
+									<li><a href="">Profile Building</a></li>
+									<li><a href="">My Percentile</a></li>
+									<li><a href="">Psychometric Councling</a></li>
+									<li><a href="">DMIT Councling</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Global Program</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Life@Wisdom360 &nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">Awards & Recognition</a></li>
+									<li><a href="">Media</a></li>
+									<li><a href="">Gallery</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Success Story&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">Results</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Others &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">Blog</a></li>
+									<li><a href="">Downloads</a></li>
+									<li><a href="">E-Book</a></li>
+									<li><a href="">Career</a></li>
+									<li><a href="">Brochure</a></li>
+									<li><a href="">Admission</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Contact us</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+			</ul>
+			
+			<!--dropdown contant-->
+			<ul id="dropdownAbout" class="dropdown-content">
+				<li><a href="#!">About Organisation</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">About Director</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Core Values</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Mission</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Vision</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Objective</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Our Experts</a></li>
+			</ul>
+			
+			<ul id="dropdownProgram" class="dropdown-content">
+				<li><a href="#!">Classroom Program</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Profile Building</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">My Percentile</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Psychometric Councling</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">DMIT Councling</a></li>
+			</ul>
+			
+			<ul id="dropdownLife" class="dropdown-content">
+				<li><a href="#!">Awards & Recognition</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Media</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Gallery</a></li>
+			</ul>
+			
+			<ul id="dropdownStory" class="dropdown-content">
+				<li><a href="#!">Results</a></li>
+			</ul>
+			
+			<ul id="dropdownOthers" class="dropdown-content">
+				<li><a href="#!">Blog</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Downloads</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">E-Book</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Career</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Brochure</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Admission</a></li>
+			    
+			</ul>
+			
+		</header>
+		
+		<main>	
+			
+			<div class="indigo">
+				<div class="row">
+					<div class="col s12 m12 center">
+						<p class="white-text" style="font-size: 60px;font-weight:800;margin-bottom:0px">ABOUT US</p>
+						<br>
+						<br>
+						<br>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row container" style="width:80%">
+				<div class="col s12 m12">
+					<br class="hide-on-small-only">
+					<br>
+					<p class="black-text" style="font-size:1.1rem;margin-top:0px;">Wisdom360 is a holistic coaching platform that caters to fulfilling the educational and career aspirations of students. <br>
+						We understand that every age group has its own learning needs. Therefore, we tutor primary-school children to higher education aspirants in such a way that learning becomes a ‘life-long process’.<br>
+						An initiative by IIT & IIM Alumni, Wisdom360 has established various programs for Class 2 to 12 – blending objective/subjective and offline/online learning methods. There are also special workshops for the purposes of student orientation and Career Counselling.
+					</p>
+					<p class="black-text" style="font-size:1.1rem;margin-top:0px;">Bringing our full-rounded educational techniques to use, we also render : </p>
+					<ul style="font-size:1.1rem;margin-left:20px">
+						<li style="list-style-type: initial;">Preparation classes for several entrance exams after 12th or 10th class, so that no student misses out on pursuing the courses or colleges he/she aspires for Coaching classes for talent search exams like NTSE and various Olympiads</li>
+						<li style="list-style-type: initial;">A Global Program to prepare students for international boards</li>
+						<li style="list-style-type: initial;">Profile Building Programs through various in-house clubs that enhance a student’s ability to ace brain sports based on Vedic Math, Coding for kids</li>
+						<li style="list-style-type: initial;">Kid-pre-neurship, Music, Language (Spelling Bee), and more!</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="indigo darken-1">
+				<div class="row container" style="width:80%">
+					<div class="col s12 m6 sideBorder">
+						<br>
+						<h4 class="white-text"><b>MISSION</b></h4>
+						<p class="white-text" style="font-size:1.1rem;margin-top:0px;">
+							To create a stress-free tutorial space where innovative learning methods are encouraged in such a way that obtaining excellent marks becomes a by-product of the student’s inherent genius.
+						</p>
+						<br class="hide-on-small-only">
+						<br class="hide-on-small-only">
+						<br class="hide-on-small-only">
+					</div>
+					<div class="col s12 m6">
+						<br>
+						<h4 class="white-text"><b>VISION</b></h4>
+						<p class="white-text" style="font-size:1.1rem;margin-top:0px;">
+							To make tutoring for school, higher education and competitive exams accessible and affordable while putting the best teaching practices in use, reducing the stress on students, and making their subject base strong.
+						</p>
+						<br><br>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row container" style="width:80%">
+				<div class="col s12 m5">
+					<br class="hide-on-small-only">
+					<br class="hide-on-small-only">
+					<h4 class="black-text"><b>OBJECTIVE FOR<br>THE COMPANY</b></h4>
+					<p class="black-text" style="font-size:1.2rem">To enable the students in<br>their educational journey :</p>
+					
+				</div>
+				<div class="col s12 m7">
+					<br class="hide-on-small-only">
+					<br class="hide-on-small-only">
+					<ul style="font-size:1.1rem;margin-left:20px">
+						<li style="list-style-type: initial;">Self-learning techniques </li>
+						<li style="list-style-type: initial;">Thoroughly curated study material</li>
+						<li style="list-style-type: initial;">Focused execution strategies</li>
+						<li style="list-style-type: initial;">Consistent counseling support </li>
+						<li style="list-style-type: initial;">One-to-one doubt-clearing sessions and feedbacks</li>
+						<li style="list-style-type: initial;">An ideal student-teacher ratio </li>
+						<li style="list-style-type: initial;">Online support, smart classes, and first-rate infrastructural support</li>
+					</ul>
+					<br class="hide-on-small-only">
+					<br class="hide-on-small-only">
+				</div>
+			</div>
+			
+			<div class="indigo lighten-5">
+				<div class="row container" style="width:95%">
+					<div class="col s12 m12 center">
+						<h4 class="black-text"><b>INFRASTRUCTURE & FACILITIES</b></h4>
+					</div>
+					
+					<div class="col s6 m2 center offset-m1">
+						<br>
+						<div style="border:2px solid #0059a5;border-radius:15px" class="white">
+							<img src="images/icon1.png" style="width:60%;margin-top:20px"/>
+							<p class="indigo-text"><b>Air Conditioned Classes</b></p>
+						</div>
+					</div>
+					
+					<div class="col s6 m2 center">
+						<br>
+						<div style="border:2px solid #0059a5;border-radius:15px" class="white">
+							<img src="images/icon2.png" style="width:60%;margin-top:20px"/>
+							<p class="indigo-text"><b>Security Powered By CCTV</b></p>
+						</div>
+					</div>
+					
+					<div class="col s6 m2 center">
+						<br>
+						<div style="border:2px solid #0059a5;border-radius:15px" class="white">
+							<img src="images/icon3.png" style="width:60%;margin-top:20px"/>
+							<p class="indigo-text"><b>Power Backup</b></p>
+							<br class="hide-on-med-and-up">
+						</div>
+					</div>
+					
+					<div class="col s6 m2 center">
+						<br>
+						<div style="border:2px solid #0059a5;border-radius:15px" class="white">
+							<img src="images/icon4.png" style="width:60%;margin-top:20px"/>
+							<p class="indigo-text"><b>Digital & Physical Library</b></p>
+						</div>
+					</div>
+					
+					<div class="col s6 m2 center">
+						<br>
+						<div style="border:2px solid #0059a5;border-radius:15px" class="white">
+							<img src="images/icon5.png" style="width:60%;margin-top:20px"/>
+							<p class="indigo-text"><b>Pick & Drop Facility</b></p>
+						</div>
+					</div>
+					
+					<div class="col s6 m2 center offset-m1">
+						<br>
+						<div style="border:2px solid #0059a5;border-radius:15px" class="white">
+							<img src="images/icon6.png" style="width:60%;margin-top:20px"/>
+							<p class="indigo-text"><b>Evening Boarding</b></p>
+						</div>
+					</div>
+					
+					<div class="col s6 m2 center">
+						<br>
+						<div style="border:2px solid #0059a5;border-radius:15px" class="white">
+							<img src="images/icon8.png" style="width:60%;margin-top:20px"/>
+							<p class="indigo-text"><b>Smart Classes</b></p>
+							<br class="hide-on-med-and-up">
+						</div>
+					</div>
+					
+					<div class="col s6 m2 center">
+						<br>
+						<div style="border:2px solid #0059a5;border-radius:15px" class="white">
+							<img src="images/icon10.png" style="width:60%;margin-top:20px"/>
+							<p class="indigo-text"><b>Recreational Activities</b></p>
+						</div>
+					</div>
+					
+					<div class="col s6 m2 center">
+						<br>
+						<div style="border:2px solid #0059a5;border-radius:15px" class="white">
+							<img src="images/icon11.png" style="width:60%;margin-top:20px"/>
+							<p class="indigo-text"><b>Best Faculty</b></p>
+						</div>
+					</div>
+					
+					<div class="col s6 m2 center">
+						<br>
+						<div style="border:2px solid #0059a5;border-radius:15px" class="white">
+							<img src="images/icon12.png" style="width:60%;margin-top:20px"/>
+							<p class="indigo-text"><b>Stress Free Learning</b></p>
+						</div>
+					</div>
+					
+					<div class="col s6 m2 center offset-m1">
+						<br>
+						<div style="border:2px solid #0059a5;border-radius:15px" class="white">
+							<img src="images/icon13.png" style="width:60%;margin-top:20px"/>
+							<p class="indigo-text"><b>Timely Completion Of Courses</b></p>
+							<br class="hide-on-med-and-up">
+						</div>
+					</div>
+					
+					<div class="col s6 m2 center">
+						<br>
+						<div style="border:2px solid #0059a5;border-radius:15px" class="white">
+							<img src="images/icon14.png" style="width:60%;margin-top:20px"/>
+							<p class="indigo-text"><b>Regular Interaction With Parents & Toppers</b></p>
+						</div>
+					</div>
+					
+					<div class="col s6 m2 center">
+						<br>
+						<div style="border:2px solid #0059a5;border-radius:15px" class="white">
+							<img src="images/icon15.png" style="width:60%;margin-top:20px"/>
+							<p class="indigo-text"><b>Expert Counselling<br><br></b></p>
+						</div>
+					</div>
+					
+					<div class="col s6 m2 center">
+						<br>
+						<div style="border:2px solid #0059a5;border-radius:15px" class="white">
+							<img src="images/icon16.png" style="width:60%;margin-top:20px"/>
+							<p class="indigo-text"><b>1:1 Doubt Clearing Session</b></p>
+						</div>
+					</div>
+					
+					<div class="col s6 m2 center">
+						<br>
+						<div style="border:2px solid #0059a5;border-radius:15px" class="white">
+							<img src="images/icon17.png" style="width:60%;margin-top:20px"/>
+							<p class="indigo-text"><b>Advisory Board From Top Premier Institutions</b></p>
+						</div>
+						
+					</div>
+					
+					
+					<div class="col s12 m12 center">
+						<br>
+						<br>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row container" style="width:90%">
+				<div class="col s12 m4 center">
+					<br class="hide-on-small-only">
+					<br class="hide-on-small-only">
+					<br class="hide-on-small-only">
+					<h4 class="black-text center hide-on-med-and-up"><b>ABOUT THE DIRECTOR</b></h4>
+					<img src="images/director1.jpg" style="width:80%">
+				</div>
+				<div class="col s12 m8 hide-on-small-only">
+					<h4 class="black-text center hide-on-small-only"><b>ABOUT THE DIRECTOR</b></h4>
+					<p class="black-text" style="font-size:1rem">
+						Dr. Upendra Tripathi considers himself as a lifelong learner. His passion to enable children and youngsters with the power of independent thinking and an excellent learning attitude lead to the conception of Wisdom360. Through Wisdom360, he has been able to create an equitable educational culture for our next generation wherein students are encouraged to ask questions and teachers are encouraged to listen. <br>
+						Due to Dr. Tripathi’s earnest desire for an all-round development of students, Wisdom360 ended up becoming a long-standing pioneer of delivering short-term profile building courses. These courses are conducted under the watchful eye of esteemed mentors who are ex-alumni of world-class institutions. <br>
+						A believer in the philosophy – “Try new things irrespective of the results”, Dr. Tripathi ensures that Wisdom360 doesn’t get stuck in conventional learning practices. Though a great leader and team player, he considers his students as his extended family and envisions for them a future wherein they not only know ‘what to think’, but also ‘how to think’. Teaching such independent and critical thinking skills is of utmost importance at Wisdom360 and therefore, percolates through its every tutoring program - starting from the ones custom-made for dreamers in primary school to achievers in higher institutions. <br>
+						Keeping up with Dr. Tripathi’s longing to ‘do more and learn more’, the Wisdom360 family has also launched UDAAN, a social and humanitarian initiative that focuses on providing education to the most underprivileged and neglected talents of our country. <br>
+						Dr. Upendra Tripathi completed his Bachelors in Engineering from HBTI Kanpur and went on to earn a PhD degree from IIT Delhi. He has served as Head of Department and Centre Head in some of the leading institutes of Delhi and Lucknow.<br>
+					</p>
+					
+				</div>
+				<div class="col s12 m8 hide-on-med-and-up">
+					<p class="black-text" style="font-size:1rem">
+						Dr. Upendra Tripathi considers himself as a lifelong learner. His passion to enable children and youngsters with the power of independent thinking and an excellent learning attitude lead to the conception of Wisdom360. Through Wisdom360, he has been able to create an equitable educational culture for our next generation wherein students are encouraged to ask questions and teachers are encouraged to listen. <span class="indigo-text" id="btnKnowMore"><b>&nbsp;Know More...</b></span>
+						<span class="hide-on-small-only" id="ShowFull">
+						<br>
+						Due to Dr. Tripathi’s earnest desire for an all-round development of students, Wisdom360 ended up becoming a long-standing pioneer of delivering short-term profile building courses. These courses are conducted under the watchful eye of esteemed mentors who are ex-alumni of world-class institutions. <br>
+						A believer in the philosophy – “Try new things irrespective of the results”, Dr. Tripathi ensures that Wisdom360 doesn’t get stuck in conventional learning practices. Though a great leader and team player, he considers his students as his extended family and envisions for them a future wherein they not only know ‘what to think’, but also ‘how to think’. Teaching such independent and critical thinking skills is of utmost importance at Wisdom360 and therefore, percolates through its every tutoring program - starting from the ones custom-made for dreamers in primary school to achievers in higher institutions. <br>
+						Keeping up with Dr. Tripathi’s longing to ‘do more and learn more’, the Wisdom360 family has also launched UDAAN, a social and humanitarian initiative that focuses on providing education to the most underprivileged and neglected talents of our country. <br>
+						Dr. Upendra Tripathi completed his Bachelors in Engineering from HBTI Kanpur and went on to earn a PhD degree from IIT Delhi. He has served as Head of Department and Centre Head in some of the leading institutes of Delhi and Lucknow.<span class="indigo-text" id="btnShowLess"><b>&nbsp;Know Less...</b></span><br>
+						</span>
+						
+					</p>
+					
+				</div>
+			</div>
+			
+			<div class="row container" style="width:90%">
+				<div class="col s12 m12 center">
+					<h4 class="black-text center"><b>MEET THE EXPERTS</b></h4>
+				</div>
+			</div>
+			<div class="row container" style="width:90%">
+				
+				<div class="col s12 m12">
+					
+					
+					
+					<ul class="collapsible">
+						
+						<!--biology-->
+						<li>
+							<div class="collapsible-header indigo darken-2 white-text"><b>BIOLOGY</b></div>
+							<div class="collapsible-body black-text">
+								
+								<div class="row">
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br class="hide-on-small-only">
+												<image src="images/sir59.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>RAHUL SAHA</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>M.TECH</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir57.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>Dr. V K UPADHYAY</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>BAMS</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir39.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>DR. BHAWNA SAROHA</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>PhD</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir62.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>SUKRITI GOSWAMI</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>MSc</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir68.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>VARUN DHALI</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>M.Phil, MSc</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir27.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>RUBI MAURYA</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>BSc, BEd</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir23.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>VANDANA RAGHUVANSHI</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>MSc, BEd</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir33.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>SHIKHA SRIVASTAVA</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>MSc, BEd</b></p>	
+											</div>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+							
+						</li>
+						
+						<!--maths-->
+						<li>
+							<div class="collapsible-header indigo darken-2 white-text"><b>MATHS</b></div>
+							<div class="collapsible-body">
+								
+								<div class="row">
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir46.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>GAURAV KESHARWANI</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>MSc, BEd</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir16.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>G.P.DWIVEDI</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>MSc, BEd</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir6.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>RAHUL PANDEY</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>B.TECH</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir58.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>PRAMOD YADAV</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>B.TECH</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir49.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>LALIT MISHRA</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>MSc</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir69.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>SHIKHA JOSHI</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>MSc, BEd</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir14.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>ARVIND KUMAR</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>BSc</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir24.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>APREETI MISHRA</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>BSc</b></p>	
+											</div>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</li>
+						
+						<!--chemistry-->
+						<li>
+							<div class="collapsible-header indigo darken-2 white-text"><b>CHEMISTRY</b></div>
+							<div class="collapsible-body">
+								
+								<div class="row">
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir66.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>KRISHNA SINGH</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>MSc, BEd</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir43.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>VINAYAK DUBEY</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>MSc, BEd</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir53.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>A.K DUBEY</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>MSc</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir65.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>SUKHVINDER KAUR</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>MSc, BEd</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir7.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>SATYENDRA TRIPATHI</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>MSc</b></p>	
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						
+						<!--physics-->
+						<li>
+							<div class="collapsible-header indigo darken-2 white-text"><b>PHYSICS</b></div>
+							<div class="collapsible-body">
+								
+								<div class="row">
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir30.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>DR. UPENDRA TRIPATHI</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>B.TECH (HBTI), PhD (IIT DELHI)</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir19.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>NAVEEN PATEL</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>B.TECH</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir5.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>RUPESH TIWARI</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>B.TECH</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir64.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>RAVNEET NAGI</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>BSc, BEd</b></p>	
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						
+						<!--commerse-->
+						<li>
+							<div class="collapsible-header indigo darken-2 white-text"><b>COMMERCE</b></div>
+							<div class="collapsible-body">
+								
+								<div class="row">
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir67.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>RAKESH PANDE</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>M.COM, M.Ed, DPA</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir36.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>DEVESH AGRAWAL</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>CHARTERED ACCOUNTANT</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir2.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>APOORVA SHARMA</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>M.COM, BEd</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir1.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>APOORVA PANDAY</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>M.COM, B.COM</b></p>	
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						
+						<!--computer-->
+						<li>
+							<div class="collapsible-header indigo darken-2 white-text"><b>COMPUTER</b></div>
+							<div class="collapsible-body">
+								
+								<div class="row">
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir12.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>ANJALI BASHERA</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>BSc, MCA</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir42.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>ATUL KAPOOR</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>PGDCA, MCA</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir47.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>SHIVANKITA SHUKLA</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>MSc (IT)</b></p>	
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						
+						<!--language and sst-->
+						<li>
+							<div class="collapsible-header indigo darken-2 white-text"><b>LANGUAGE & SOCIAL SCIENCE</b></div>
+							<div class="collapsible-body">
+								
+								<div class="row">
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir44.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>VINEET SINGH</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>MA, BEd</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir60.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>RITESH SINGH</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>MA</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir61.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>SHEFALI SINGH</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>MA</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir63.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>SWATI PRIYA</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>MA</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir56.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>BAL MUKUND SHARMA</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>MA</b></p>	
+											</div>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+							
+						</li>
+						
+						<!--reasosning & aptitude-->
+						<li>
+							<div class="collapsible-header indigo darken-2 white-text"><b>REASONING AND APTITUDE</b></div>
+							<div class="collapsible-body">
+								<div class="row">
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir32.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>DEEPAK GAUR</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>B.TECH</b></p>	
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						
+						<!--administration-->
+						<li>
+							<div class="collapsible-header indigo darken-2 white-text"><b>ADMINISTRATION</b></div>
+							<div class="collapsible-body">
+								
+								<div class="row">
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir31.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>DR. SHWETA TRIPATHI</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>MA, BEd, PhD </b></p>	
+												<p style="margin:0 0;font-size:12px"><b>CENTER HEAD (HEAD OFFICE)</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir34.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>ATUL KUMAR</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>MSc, EMBA (IIM LUCKNOW)</b></p>	
+												<p style="margin:0 0;font-size:12px"><b>CENTRE HEAD, VRINDAVAN</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir35.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>SHAILENDRA TRIPATHI</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>MA, BEd</b></p>	
+												<p style="margin:0 0;font-size:12px"><b>CENTRE HEAD, UDAAN KANPUR</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir32.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>DEEPAK SINGH GAUR</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>B.TECH</b></p>	
+												<p style="margin:0 0;font-size:12px"><b>CENTER MANAGER (HEAD OFFICE)</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir52.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>RAGHAV DUNEJA</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>BBA, LLB</b></p>	
+												<p style="margin:0 0;font-size:12px"><b>CREATIVE ASSOCIATE</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir10.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>ALPANA TIWARI SHUKLA</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>MBA (H.R)</b></p>	
+												<p style="margin:0 0;font-size:12px"><b>ACADEMIC COORDINATOR</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir33.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>SHIKHA SRIVASTAVA</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>MSc, BEd</b></p>	
+												<p style="margin:0 0;font-size:12px"><b>ACADEMIC COORDINATOR(VRINDAVAN)</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir26.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>ROHIT</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>BA, DIPLOMA</b></p>	
+												<p style="margin:0 0;font-size:12px"><b>ACADEMIC COORDINATOR</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir48.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>SARITA TIWARI</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>MA, PhD</b></p>	
+												<p style="margin:0 0;font-size:12px"><b>ACADEMIC COORDINATOR</b></p>	
+											</div>
+										</div>
+									</div>
+									
+									<div class="col s12 m3">
+										<div class="center">
+											<div class=" indigo-text">
+												<br>
+												<image src="images/sir3.png" style="width:30%;border:.5px solid #0059a5" class="circle"/>
+												<h6 style="margin:0 0"><b>PREETI KHANNA</b></h6>
+												<p style="margin:0 0;font-size:12px"><b>MBA (AIMK)</b></p>	
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+			
+			<div class="udanbg">
+				<div class="row container" style="width:90%;margin-bottom:0px">
+					<div class="col s12 m4 center">
+						<br>
+						<img src="images/udaan.png" style="width:70%"/>
+					</div>
+					<div class="col s12 m8 center">
+						<br class="hide-on-small-only">
+						<br class="hide-on-small-only">
+						<br>
+						<img src="images/udaanlogo.png" style="width:30%" class="hide-on-small-only"/>
+						<img src="images/udaanlogo.png" style="width:50%" class="hide-on-med-and-up"/>
+						<p class="white-text" style="font-size:1rem">
+							<b>UDAAN is a social initiative started by members of WISDOM360.
+								We exist to focus on various humanitarian service programs in
+								the area of education of the unprivileged and less fortunate
+							ones often forgotten by the rest of the world.</b>
+						</p>
+						<a class="waves-effect waves-light btn white indigo-text"><b>Learn More</b></a>
+						<br class="hide-on-med-and-up">
+						<br class="hide-on-med-and-up">
+						<br class="hide-on-med-and-up">
+						<br class="hide-on-med-and-up">
+					</div>
+				</div>
+			</div>
+			
+		</main>
+		
+		<footer class="page-footer green">
+			<div class="container" style="width:90%">
+				<div class="row" style="margin-top:0px">
+					<div class="col l6 s12">
+						<h5 class="white-text">Company Bio</h5>
+						<p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+						
+						
+					</div>
+					<div class="col l3 s12">
+						<h5 class="white-text">Settings</h5>
+						<ul>
+							<li><a class="white-text" href="#!">Link 1</a></li>
+							<li><a class="white-text" href="#!">Link 2</a></li>
+							<li><a class="white-text" href="#!">Link 3</a></li>
+							<li><a class="white-text" href="#!">Link 4</a></li>
+						</ul>
+					</div>
+					<div class="col l3 s12">
+						<h5 class="white-text">Connect</h5>
+						<ul>
+							<li><a class="white-text" href="#!">Link 1</a></li>
+							<li><a class="white-text" href="#!">Link 2</a></li>
+							<li><a class="white-text" href="#!">Link 3</a></li>
+							<li><a class="white-text" href="#!">Link 4</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container">
+					<center><a class="white-text" href="http://ameegolabs.com" target="_blank"> <span style="font-weight:500">Ameego Labs Pvt Ltd</span></a>
+					2020 © Copy Right</center>
+				</div>
+			</div>
+		</footer>
+		
+		
+		<!--  Scripts-->
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="js/materialize.js"></script>
+		<script src="js/init.js"></script>
+		
+		<script>
+			$(document).ready(function(){
+				$('#btnKnowMore').click(function() {
+					$('#ShowFull').removeClass('hide-on-small-only')
+					$('#btnKnowMore').addClass('hide')
+				});
+				$('#btnShowLess').click(function() {
+					$('#ShowFull').addClass('hide-on-small-only')
+					$('#btnKnowMore').removeClass('hide')
+				});
+			});
+		</script>
+		
+	</body>
+</html>

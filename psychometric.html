@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+		<title>WISDOM360</title>
+		<link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32">
+		<link rel="apple-touch-icon-precomposed" href="images/favicon/apple-touch-icon-152x152.png">
+		<meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
+		<meta name="msapplication-TileColor" content="#FFFFFF">
+		
+		<!-- CSS  -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<style>
+			.divBg {
+			background-image: url("images/cbg.png");
+			background-repeat:no-repeat;
+			background-size:cover;
+			background-size: 100% 100%;
+			}
+			
+			.bgcolor{
+			background-color: #f7b42c;
+			background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
+			
+			}
+		</style>
+	</head>
+	<body>
+		
+		<header>
+			<div class="navbar-fixed">
+				<nav class="white z-depth-0" role="navigation" style="border-bottom:1px solid #e0e0e0">
+					<div class="nav-wrapper container" style="width:95%">
+						<a id="logo-container" href="index.html" class="brand-logo">
+							<img src="images/root.png" style="width:2.8rem;"/>
+						</a>
+						<ul class="right hide-on-med-and-down">
+							<li><a href="#" class="grey-text text-darken-2" style="font-weight:500">Home</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownAbout" id="clickId">About us</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownProgram">Programs</a></li>
+							<li><a href="#" class="grey-text text-darken-2" style="font-weight:500">Global Program</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownLife">Life@Wisdom360</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownStory">Success Story</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownOthers">Others</a></li>
+							<li><a href="#" class="grey-text text-darken-2" style="font-weight:500">Contact us</a></li>
+						</ul>
+						<a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons grey-text text-darken-2">menu</i></a>
+					</div>
+				</nav>
+				
+			</div>
+			<!--mobile menu-->
+			<ul id="nav-mobile" class="sidenav">
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;About us &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">About Organisation</a></li>
+									<li><a href="">About Director</a></li>
+									<li><a href="">Core Values</a></li>
+									<li><a href="">Mission</a></li>
+									<li><a href="">Vision</a></li>
+									<li><a href="">Objective</a></li>
+									<li><a href="">Our Experts</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Programs &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">Classroom Program</a></li>
+									<li><a href="">Profile Building</a></li>
+									<li><a href="">My Percentile</a></li>
+									<li><a href="">Psychometric Councling</a></li>
+									<li><a href="">DMIT Councling</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Global Program</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Life@Wisdom360 &nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">Awards & Recognition</a></li>
+									<li><a href="">Media</a></li>
+									<li><a href="">Gallery</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Success Story&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">Results</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Others &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">Blog</a></li>
+									<li><a href="">Downloads</a></li>
+									<li><a href="">E-Book</a></li>
+									<li><a href="">Career</a></li>
+									<li><a href="">Brochure</a></li>
+									<li><a href="">Admission</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Contact us</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+			</ul>
+			
+			<!--dropdown contant-->
+			<ul id="dropdownAbout" class="dropdown-content">
+				<li><a href="#!">About Organisation</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">About Director</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Core Values</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Mission</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Vision</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Objective</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Our Experts</a></li>
+			</ul>
+			
+			<ul id="dropdownProgram" class="dropdown-content">
+				<li><a href="#!">Classroom Program</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Profile Building</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">My Percentile</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Psychometric Councling</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">DMIT Councling</a></li>
+			</ul>
+			
+			<ul id="dropdownLife" class="dropdown-content">
+				<li><a href="#!">Awards & Recognition</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Media</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Gallery</a></li>
+			</ul>
+			
+			<ul id="dropdownStory" class="dropdown-content">
+				<li><a href="#!">Results</a></li>
+			</ul>
+			
+			<ul id="dropdownOthers" class="dropdown-content">
+				<li><a href="#!">Blog</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Downloads</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">E-Book</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Career</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Brochure</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Admission</a></li>
+			    
+			</ul>
+			
+		</header>
+		
+		<main>	
+			
+			<div class="indigo">
+				<div class="row" style="margin:0 0;">
+					<div class="col s12 m12 center">
+						<p class="white-text" style="font-size:3rem;font-weight:400;margin:0 0">DISCOVER YOUR RIGHT CAREER</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="grey lighten-4">
+				<div class="row" style="margin:0 0;">
+					<div class="col s12 m4 hide-on-med-and-up">
+						<br>
+						<img src="images/girl2.png" style="width:100%;margin-bottom:-5px"/>
+					</div>
+					<div class="col s12 m8">
+						<br class="hide-on-small-only">
+						<br class="hide-on-small-only">
+						<br class="hide-on-small-only">
+						<br>
+						<div class="container" style="width:80%">
+							<p class="indigo-text hide-on-small-only" style="font-size:3rem;font-weight:400;margin:0 0">PSYCHOMETRIC CAREER ASSESSMENT</p>
+							<p class="indigo-text hide-on-med-and-up" style="font-size:1.8rem;font-weight:400;margin:0 0">PSYCHOMETRIC CAREER ASSESSMENT</p>
+							<p class="indigo-text hide-on-small-only" style="font-size:1.5rem">Psychometric assessments or career tests are standard scientific tests used to measure individual's mental capabilities, cognitive abilities & behavioural style. <br>
+							These tests are further fine-tuned to suit the Global standards by a panel of Career Counsellors,Psychologists and Research team.</p>
+							<p class="indigo-text hide-on-med-and-up" style="font-size:1.2rem">Psychometric assessments or career tests are standard scientific tests used to measure individual's mental capabilities, cognitive abilities & behavioural style. <br>
+							These tests are further fine-tuned to suit the Global standards by a panel of Career Counsellors,Psychologists and Research team.</p>
+						</div>
+					</div>
+					<div class="col s12 m4 hide-on-small-only">
+						<img src="images/girl2.png" style="width:90%;margin-bottom:-5px"/>
+					</div>
+				</div>
+			</div>
+			
+			<div class="indigo">
+				<div class="row" style="margin:0 0;">
+					<div class="col s12 m12 center">
+						<p class="white-text hide-on-small-only" style="font-size:2.5rem;font-weight:400;">LET OUR EXPERT COUNSELLORS BE YOUR GUIDE</p>
+						<p class="white-text hide-on-med-and-up" style="font-size:1.6rem;font-weight:400;">LET OUR EXPERT COUNSELLORS BE YOUR GUIDE</p>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row container hide-on-small-only" style="width:90%;">
+				<div class="col s12 m12 center">
+					<img src="images/mind2.png" style="width:90%;margin-top: -35px"/>
+				</div>
+			</div>
+			<div class="row container hide-on-med-and-up" style="width:90%;">
+				<div class="col s12 m12 center">
+					<img src="images/mind2.png" style="width:100%;margin-top: -10px"/>
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="indigo">
+				<div class="row" style="margin:0 0;">
+					<div class="col s12 m3 hide-on-med-and-up center">
+						<img src="images/stairs.png" style="width:60%;margin-top: -40%"/>
+					</div>
+					<div class="col s12 m9">
+						<div class="container" style="width:80%">
+							<p class="white-text hide-on-small-only" style="font-size:2rem;font-weight:400;">We help you discover the right career path by carefully assessing your skills, choices & interests. Career counselling is a two-step process</p>
+							<p class="white-text hide-on-med-and-up" style="font-size:1.5rem;font-weight:400;">We help you discover the right career path by carefully assessing your skills, choices & interests. Career counselling is a two-step process</p>
+						</div>
+					</div>
+					<div class="col s12 m3 hide-on-small-only">
+						<img src="images/stairs.png" style="width:90%;margin-top: -50%"/>
+					</div>
+				</div>
+			</div>
+			<div class="indigo">
+				<div class="row" style="margin:0 0;">
+					<br>
+					<div class="col s12 m5">
+						<div style="border:5px solid white">
+							<h5 class="white-text" style="margin-left:2.5rem;margin-bottom:0px"><b>PSYCHOMETRIC TEST</b></h5>
+							<p class="white-text" style="margin-left:2.5rem;font-size:1.3rem;margin-top:0px">Test to assess your behaviour,<br>choices & interests</p>
+						</div>
+						<br class="hide-on-med-and-up">
+					</div>
+					<div class="col s12 m7">
+						<div style="border:5px solid white">
+							<h5 class="white-text" style="margin-left:2.5rem;margin-bottom:0px"><b>ONE-ON-ONE CONSULTATION</b></h5>
+							<p class="white-text" style="margin-left:2.5rem;font-size:1.3rem;margin-top:0px">Counselling sessions with our experts to figure out the <br>best suited career option</p>
+						</div>
+					</div>
+					<div class="col s12 m12">
+						<br>
+						<br>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			<div class="row container" style="width:90%">
+				<div class="col s12 m12 center">
+					<p class="indigo-text" style="font-size:2.5rem;margin-top:10px;">Why Take a Psychometric Test</p>
+				</div>
+				
+				<div class="col s12 m4">
+					<div style="border-left:4px solid #3f51b5">
+						<img src="images/ic21.png" style="width:30%;margin-left:15px"/>
+						<h5 class="indigo-text" style="margin-left:15px;margin-bottom:0px"><b>TIME FOR SELF-<br>REFLECTION :</b></h5>
+						<p class="indigo-text" style="margin-left:15px;font-size:1.3rem;margin-top:0px">A psychometric test helps you analyse your strengths and weaknesses to the core.</p>
+					</div>
+				</div>
+				
+				<div class="col s12 m4">
+					<div style="border-left:4px solid #3f51b5">
+						<img src="images/ic23.png" style="width:30%;margin-left:15px"/>
+						<h5 class="indigo-text" style="margin-left:15px;margin-bottom:0px"><b>IDENTIFY THE <br>RIGHT PATH :</b></h5>
+						<p class="indigo-text" style="margin-left:15px;font-size:1.3rem;margin-top:0px">Get matched to the perfect career based on your interests and skillset.</p>
+					</div>
+				</div>
+				
+				<div class="col s12 m4">
+					<div style="border-left:4px solid #3f51b5">
+						<img src="images/ic23.png" style="width:30%;margin-left:15px"/>
+						<h5 class="indigo-text" style="margin-left:15px;margin-bottom:0px"><b>REALISE YOUR AREAS OF IMPROVEMENT :</b></h5>
+						<p class="indigo-text" style="margin-left:15px;font-size:1.3rem;margin-top:0px">Taking a psychometric test helps you identify your scope of improvements</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="teal lighten-3">
+				<div class="row" style="margin:0 0;">
+					<div class="col s12 m6 center hide-on-med-and-up">
+						<p class="white-text hide-on-med-and-up" style="font-size:1.8rem;font-weight:400;">WHY WISDOM360 FOR CAREER ASSESSMENT TEST?</p>
+						<img src="images/learner.png" style="width:70%;"/>
+						<br>
+					</div>
+					<div class="col s12 m6 hide-on-small-only">
+						<div class="container" >
+							<p class="white-text hide-on-small-only" style="font-size:2.5rem;font-weight:400;">WHY WISDOM360 FOR CAREER ASSESSMENT TEST?</p>
+							<p class="valign-wrapper white-text"style="font-size:1.2rem"><i class="material-icons white-text">play_circle_filled</i>&nbsp;Satisfaction Rate with Results</p>
+							<p class="valign-wrapper white-text" style="font-size:1.2rem"><i class="material-icons white-text">play_circle_filled</i>&nbsp;Higher Education and Career Growth Platform</p>
+							<p class="valign-wrapper white-text" style="font-size:1.2rem"><i class="material-icons white-text">play_circle_filled</i>&nbsp;Available to guide you throughout the journey</p>
+						</div>
+					</div>
+					<div class="col s12 m6 hide-on-med-and-up">
+						<div class="container" >
+							<p class="white-text hide-on-small-only" style="font-size:2.5rem;font-weight:400;">WHY WISDOM360 FOR CAREER ASSESSMENT TEST?</p>
+							
+							<ul class="white-text" style="margin-left:15px">
+								<li style="list-style-type: initial"><p class="white-text">&nbsp;Satisfaction Rate with Results</p></li>
+								<li style="list-style-type: initial"><p class="white-text">&nbsp;Higher Education and Career Growth Platform</p></li>
+								<li style="list-style-type: initial"><p class="white-text">&nbsp;Available to guide you throughout the journey</p></li>
+							</ul>
+							<br>
+						</div>
+					</div>
+					<div class="col s12 m6 center hide-on-small-only">
+						<br>
+						<br>
+						<img src="images/learner.png" style="width:70%;"/>
+						<br>
+						<br>
+						<br>
+					</div>
+				</div>
+			</div>
+			
+			
+		</main>
+		
+		<footer class="page-footer green">
+			<div class="container" style="width:90%">
+				<div class="row">
+					<div class="col l6 s12">
+						<h5 class="white-text">Company Bio</h5>
+						<p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+						
+						
+					</div>
+					<div class="col l3 s12">
+						<h5 class="white-text">Settings</h5>
+						<ul>
+							<li><a class="white-text" href="#!">Link 1</a></li>
+							<li><a class="white-text" href="#!">Link 2</a></li>
+							<li><a class="white-text" href="#!">Link 3</a></li>
+							<li><a class="white-text" href="#!">Link 4</a></li>
+						</ul>
+					</div>
+					<div class="col l3 s12">
+						<h5 class="white-text">Connect</h5>
+						<ul>
+							<li><a class="white-text" href="#!">Link 1</a></li>
+							<li><a class="white-text" href="#!">Link 2</a></li>
+							<li><a class="white-text" href="#!">Link 3</a></li>
+							<li><a class="white-text" href="#!">Link 4</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container">
+					<center><a class="white-text" href="http://ameegolabs.com" target="_blank"> <span style="font-weight:500">Ameego Labs Pvt Ltd</span></a>
+					2020 © Copy Right</center>
+				</div>
+			</div>
+		</footer>
+		
+		
+		<!--  Scripts-->
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="js/materialize.js"></script>
+		<script src="js/init.js"></script>
+		
+	</body>
+</html>

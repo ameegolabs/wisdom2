@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+		<title>WISDOM360</title>
+		<link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32">
+		<link rel="apple-touch-icon-precomposed" href="images/favicon/apple-touch-icon-152x152.png">
+		<meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
+		<meta name="msapplication-TileColor" content="#FFFFFF">
+		
+		<!-- CSS  -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<style>
+			.divBg {
+			background-image: url("images/yellow2.png");
+			background-repeat:no-repeat;
+			background-size:cover;
+			background-size: 100% 100%;
+			}
+			
+			.divBg1 {
+			background-image: url("images/yellow3.png");
+			background-repeat:no-repeat;
+			background-size:cover;
+			background-size: 100% 100%;
+			}
+			
+			.bgcolor{
+			background-color: #f7b42c;
+			background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
+			
+			}
+		</style>
+	</head>
+	<body>
+		
+		<header>
+			<div class="navbar-fixed">
+				<nav class="white z-depth-0" role="navigation" style="border-bottom:1px solid #e0e0e0">
+					<div class="nav-wrapper container" style="width:95%">
+						<a id="logo-container" href="index.html" class="brand-logo">
+							<img src="images/root.png" style="width:2.8rem;"/>
+						</a>
+						<ul class="right hide-on-med-and-down">
+							<li><a href="#" class="grey-text text-darken-2" style="font-weight:500">Home</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownAbout" id="clickId">About us</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownProgram">Programs</a></li>
+							<li><a href="#" class="grey-text text-darken-2" style="font-weight:500">Global Program</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownLife">Life@Wisdom360</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownStory">Success Story</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownOthers">Others</a></li>
+							<li><a href="#" class="grey-text text-darken-2" style="font-weight:500">Contact us</a></li>
+						</ul>
+						<a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons grey-text text-darken-2">menu</i></a>
+					</div>
+				</nav>
+				
+			</div>
+			<!--mobile menu-->
+			<ul id="nav-mobile" class="sidenav">
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;About us &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">About Organisation</a></li>
+									<li><a href="">About Director</a></li>
+									<li><a href="">Core Values</a></li>
+									<li><a href="">Mission</a></li>
+									<li><a href="">Vision</a></li>
+									<li><a href="">Objective</a></li>
+									<li><a href="">Our Experts</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Programs &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">Classroom Program</a></li>
+									<li><a href="">Profile Building</a></li>
+									<li><a href="">My Percentile</a></li>
+									<li><a href="">Psychometric Councling</a></li>
+									<li><a href="">DMIT Councling</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Global Program</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Life@Wisdom360 &nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">Awards & Recognition</a></li>
+									<li><a href="">Media</a></li>
+									<li><a href="">Gallery</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Success Story&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">Results</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Others &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">Blog</a></li>
+									<li><a href="">Downloads</a></li>
+									<li><a href="">E-Book</a></li>
+									<li><a href="">Career</a></li>
+									<li><a href="">Brochure</a></li>
+									<li><a href="">Admission</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Contact us</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+			</ul>
+			
+			<!--dropdown contant-->
+			<ul id="dropdownAbout" class="dropdown-content">
+				<li><a href="#!">About Organisation</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">About Director</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Core Values</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Mission</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Vision</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Objective</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Our Experts</a></li>
+			</ul>
+			
+			<ul id="dropdownProgram" class="dropdown-content">
+				<li><a href="#!">Classroom Program</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Profile Building</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">My Percentile</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Psychometric Councling</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">DMIT Councling</a></li>
+			</ul>
+			
+			<ul id="dropdownLife" class="dropdown-content">
+				<li><a href="#!">Awards & Recognition</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Media</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Gallery</a></li>
+			</ul>
+			
+			<ul id="dropdownStory" class="dropdown-content">
+				<li><a href="#!">Results</a></li>
+			</ul>
+			
+			<ul id="dropdownOthers" class="dropdown-content">
+				<li><a href="#!">Blog</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Downloads</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">E-Book</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Career</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Brochure</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Admission</a></li>
+			    
+			</ul>
+			
+		</header>
+		
+		<main>	
+			
+			<div>
+				<img src="images/kidbanner.png" style="width:100%;" class="hide-on-small-only"/>
+				<img src="images/kidbanner.png" style="width:100%" class="hide-on-med-and-up"/>
+			</div>
+			
+			<div class="divBg">
+				<div class="row" style="margin-top:-5px;">
+					<div class="col s12 m4 hide-on-med-and-up">
+						<p class="white-text headingFont" style="font-weight:normal;margin-top:20px;margin-bottom:0px">AGE (13 - 19)</p>
+						<div class="card-panel indigo" style="border-radius: 10px 10px 10px 10px;">
+							<span class="white-text">
+								<h6 style="margin-bottom:0px"><b>OPPORTUNITY :</b></h6>
+								<p style="margin-top:10px">A WHOLE NEW WINDOW OF OPPORTUNITY OPENS UP.</p>
+								<h6 style="margin-bottom:0px"><b>OPPORTUNITY :</b></h6>
+								<p style="margin-top:10px">HELPS YOU GENERATE NEW IDEAS, AND CREATE DYNAMIC PRODUCTS OR SERVICES.</p>
+								<h6 style="margin-bottom:0px"><b>OPPORTUNITY :</b></h6>
+								<p style="margin-top:10px">DENTIFIES YOUR STRENGTHS TO SHAPE YOUR IDEA INTO REALITY.</p>
+							</span>
+						</div>
+					</div>
+					<div class="col s12 m8">
+						<div class="container" style="width:90%">
+							<p class="white-text headingFont hide-on-small-only" style="font-weight:normal;margin-top:20px;margin-bottom:0px">AGE (13 - 19)</p>
+							<p class="white-text" style="font-size:1.3rem;font-weight:500">Our program at Wisdom360 guides kids through the steps of building their own business while introducing them to the exciting world of entrepreneurship and enhancing their workplace readiness, regardless of future career choices. Children are introduced to the world of entrepreneurship in a fun and engaging way – by starting their own business! Kids learn all the business basics, along with valuable life skills, as they prepare to sell their products or service.</p>
+							<br>
+							<br>
+						</div>
+					</div>
+					<div class="col s12 m4 hide-on-small-only" style="padding-right: 0rem;margin-top:-24px;position: relative">
+						<div class="card-panel indigo" style="border-radius: 10px 0px 0px 10px;">
+							<span class="white-text">
+								<h6 style="margin-bottom:0px"><b>OPPORTUNITY :</b></h6>
+								<p style="margin-top:10px">A WHOLE NEW WINDOW OF OPPORTUNITY OPENS UP.</p>
+								<h6 style="margin-bottom:0px"><b>OPPORTUNITY :</b></h6>
+								<p style="margin-top:10px">HELPS YOU GENERATE NEW IDEAS, AND CREATE DYNAMIC PRODUCTS OR SERVICES.</p>
+								<h6 style="margin-bottom:0px"><b>OPPORTUNITY :</b></h6>
+								<p style="margin-top:10px">DENTIFIES YOUR STRENGTHS TO SHAPE YOUR IDEA INTO REALITY.</p>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col s12 m12 center">
+					<p class="indigo-text headingFont hide-on-small-only" style="margin-top:0px;margin-bottom:0px">ANYONE CAN BE AN ENTREPRENEUR!</p>
+					<p class="indigo-text headingFont hide-on-med-and-up" style="margin-top:0px;font-size:2rem;margin-bottom:0px">ANYONE CAN BE AN ENTREPRENEUR!</p>
+				</div>
+			</div>
+			
+			<div class="red lighten-1">
+				<div class="row">
+					<div class="col s12 m12 center white-text" >
+						<p class="headingFont" style="font-size:2rem;margin-top:20px;margin-bottom:0px">What does your child learn?</p>
+					</div>
+				</div>
+				<div class="row valign-wrapper" style="margin-top:0px;margin-bottom:0px">
+					<div class="col s1 m1 right-align">
+						<img src="images/whitelogo.png" style="width:1.2rem">
+					</div>
+					<div class="col s11 m11">
+						<p class="white-text" style="font-size:1.2rem">Understand the concepts of entrepreneurship.</p>
+					</div>
+				</div>
+				
+				<div class="row valign-wrapper" style="margin-top:0px;margin-bottom:0px">
+					<div class="col s1 m1 right-align">
+						<img src="images/whitelogo.png" style="width:1.2rem">
+					</div>
+					<div class="col s11 m11">
+						<p class="white-text" style="font-size:1.2rem">Brainstorm business ideas</p>
+					</div>
+				</div>
+				
+				<div class="row valign-wrapper" style="margin-top:0px;margin-bottom:0px">
+					<div class="col s1 m1 right-align">
+						<img src="images/whitelogo.png" style="width:1.2rem">
+					</div>
+					<div class="col s11 m11">
+						<p class="white-text" style="font-size:1.2rem">Create a simple business plan with a budget</p>
+					</div>
+				</div>
+				
+				<div class="row valign-wrapper" style="margin-top:0px;margin-bottom:0px">
+					<div class="col s1 m1 right-align">
+						<img src="images/whitelogo.png" style="width:1.2rem">
+					</div>
+					<div class="col s11 m11">
+						<p class="white-text" style="font-size:1.2rem">Devise and implement a simple marketing plan</p>
+					</div>
+				</div>
+				
+				<div class="row valign-wrapper" style="margin-top:0px;margin-bottom:0px">
+					<div class="col s1 m1 right-align">
+						<img src="images/whitelogo.png" style="width:1.2rem">
+					</div>
+					<div class="col s11 m11">
+						<p class="white-text" style="font-size:1.2rem">Entrepreneurship in easy & fun ways</p>
+					</div>
+				</div>
+				
+				<div class="row valign-wrapper" style="margin-top:0px;margin-bottom:0px">
+					<div class="col s1 m1 right-align">
+						<img src="images/whitelogo.png" style="width:1.2rem">
+					</div>
+					<div class="col s11 m11">
+						<p class="white-text" style="font-size:1.2rem">Provide students with the psychological benefits of ownership and empowerment so that vital business and life skills emerge</p>
+					</div>
+				</div>
+				
+				<div class="row valign-wrapper" style="margin-top:0px;margin-bottom:0px">
+					<div class="col s1 m1 right-align">
+						<img src="images/whitelogo.png" style="width:1.2rem">
+					</div>
+					<div class="col s11 m11">
+						<p class="white-text" style="font-size:1.2rem">Show kids how their core academic learning applies to the world around them</p>
+					</div>
+				</div>
+				
+			</div>
+			
+			<div class="row">
+				<div class="col s12 m12 center">
+					<p class="indigo-text headingFont hide-on-small-only" style="margin-top:10px;margin-bottom:0px">INTRODUCE, PREPARE AND EXPERIENCE A REAL BUSINESS</p>
+					<p class="indigo-text headingFont hide-on-med-and-up" style="margin-top:10px;font-size:2rem;margin-bottom:0px">INTRODUCE, PREPARE AND EXPERIENCE A REAL BUSINESS</p>
+				</div>
+			</div>
+			<div>
+				<img src="images/timeline.png" style="width:100%"/>
+			</div>
+			
+			<div class="row" style="margin-bottom:0px">
+				<div class="col s12 m12 center">
+					<br>
+					<br class="hide-on-med-and-up">
+					<p class="indigo-text headingFont hide-on-small-only" style="margin-bottom:0px">COURSE CURRICULUM</p>
+					<p class="indigo-text headingFont hide-on-med-and-up" style="margin-top:10px;font-size:2.4rem;margin-bottom:0px">COURSE CURRICULUM</p>
+				</div>
+			</div>
+			<div class="row container" style="width:90%;margin-top:0px">
+				<div class="col s12 m12 indigo-text">
+					<h5 style="margin-bottom:0px"><b>UNDERSTANDING BUSINESS AND AN ENTREPRENEUR?</b></h5>
+					<p style="margin-top:10px;font-size:1.4rem">Why startup up your own business? Who is an entrepreneur?</p>
+				</div>
+				<div class="col s12 m12 indigo-text">
+					<h5 style="margin-bottom:0px"><b>HOW TO FIND PROBLEMS IN A BUSINESS?</b></h5>
+					<p style="margin-top:10px;font-size:1.4rem">Building a product and identify problems in a business and find the right opportunity to solve it</p>
+				</div>
+				<div class="col s12 m12 indigo-text">
+					<h5 style="margin-bottom:0px"><b>BUILDING A TEAM</b></h5>
+					<p style="margin-top:10px;font-size:1.4rem">Find the right fit of people for your team and build it</p>
+				</div>
+				<div class="col s12 m12 indigo-text">
+					<h5 style="margin-bottom:0px"><b>CREATE A BUSINESS PLAN</b></h5>
+					<p style="margin-top:10px;font-size:1.4rem">Ways to create a business plan for your startup</p>
+				</div>
+				<div class="col s12 m12 indigo-text">
+					<h5 style="margin-bottom:0px"><b>CREATE A FINANCIAL MODEL</b></h5>
+					<p style="margin-top:10px;font-size:1.4rem">Create a long-term financial plan with required sheets</p>
+				</div>
+				<div class="col s12 m12 indigo-text">
+					<h5 style="margin-bottom:0px"><b>SALES AND MARKETING</b></h5>
+					<p style="margin-top:10px;font-size:1.4rem">Find the right audience for your business with the right market strategy</p>
+				</div>
+				<div class="col s12 m12 indigo-text">
+					<h5 style="margin-bottom:0px"><b>CREATING A VIABLE PRODUCT FOR MARKET</b></h5>
+					<p style="margin-top:10px;font-size:1.4rem">Creating your first product viable for the market and audience requirement</p>
+				</div>
+				<div class="col s12 m12 indigo-text">
+					<h5 style="margin-bottom:0px"><b>CREATE A PITCH FOR INVESTORS</b></h5>
+					<p style="margin-top:10px;font-size:1.4rem">Learn how to make a pitch deck using presentations for investors</p>
+				</div>
+				<div class="col s12 m12 indigo-text">
+					<h5 style="margin-bottom:0px"><b>IDEA PRESENTATION</b></h5>
+					<p style="margin-top:10px;font-size:1.4rem">Present your idea to angel investors to get funded</p>
+				</div>
+			</div>
+			
+			<div class="row container" style="margin-bottom:0px;width:90%">
+				<div class="col s12 m12 center">
+					<p class="indigo-text headingFont hide-on-small-only" style="margin-top:0px;margin-bottom:0px">WE ARE ON THE MISSION TO CREATE THE NEXT<br>
+					GENERATION OF CHANGEMAKERS AND INNOVATORS </p>
+					<p class="indigo-text headingFont hide-on-med-and-up" style="margin-top:10px;font-size:1.8rem;margin-bottom:0px">WE ARE ON THE MISSION TO CREATE THE NEXT
+					GENERATION OF CHANGEMAKERS AND INNOVATORS </p>
+				</div>
+			</div>
+			
+			<div class="divBg1 lighten-1 hide-on-small-only">
+			<br>
+				<div class="row">
+					<div class="col s12 m12 center indigo-text" >
+						<p class="headingFont" style="font-size:2.5rem;margin-bottom:0px">WISDOM360 STRENGTHS</p>
+					</div>
+				</div>
+				<div class="row valign-wrapper" style="margin-top:0px;margin-bottom:0px">
+					<div class="col s1 m1 right-align">
+						<img src="images/bluelogo.png" style="width:1.2rem">
+					</div>
+					<div class="col s11 m11">
+						<p class="indigo-text" style="font-size:1.2rem">Teaching experts from top premiere institutes like IIM and other top institutes inside and outside of India.</p>
+					</div>
+				</div>
+				
+				<div class="row valign-wrapper" style="margin-top:0px;margin-bottom:0px">
+					<div class="col s1 m1 right-align">
+						<img src="images/bluelogo.png" style="width:1.2rem">
+					</div>
+					<div class="col s11 m11">
+						<p class="indigo-text" style="font-size:1.2rem">Strong and young entrepreneurs as participants who will share their insights and experiences during the course.</p>
+					</div>
+				</div>
+				
+				<div class="row valign-wrapper" style="margin-top:0px;margin-bottom:0px">
+					<div class="col s1 m1 right-align">
+						<img src="images/bluelogo.png" style="width:1.2rem">
+					</div>
+					<div class="col s11 m11">
+						<p class="indigo-text" style="font-size:1.2rem">Mixture of interactive simulations and fun exercises.</p>
+					</div>
+				</div>
+				
+				<div class="row valign-wrapper" style="margin-top:0px;margin-bottom:0px">
+					<div class="col s1 m1 right-align">
+						<img src="images/bluelogo.png" style="width:1.2rem">
+					</div>
+					<div class="col s11 m11">
+						<p class="indigo-text" style="font-size:1.2rem">nteraction with young and successful entrepreneurs.</p>
+					</div>
+				</div>
+				
+				<div class="row valign-wrapper" style="margin-top:0px;margin-bottom:0px">
+					<div class="col s1 m1 right-align">
+						<img src="images/bluelogo.png" style="width:1.2rem">
+					</div>
+					<div class="col s11 m11">
+						<p class="indigo-text" style="font-size:1.2rem">Certificate of Participation by the end of course which can be used for resume building.</p>
+					</div>
+				</div>
+				
+				<div class="row valign-wrapper" style="margin-top:0px;margin-bottom:0px">
+					<div class="col s1 m1 right-align">
+						<img src="images/bluelogo.png" style="width:1.2rem">
+					</div>
+					<div class="col s11 m11">
+						<p class="indigo-text" style="font-size:1.2rem">Small batch size to allow quality of learning.</p>
+					</div>
+				</div>
+				
+				<div class="row valign-wrapper" style="margin-top:0px;margin-bottom:0px">
+					<div class="col s1 m1 right-align">
+						<img src="images/bluelogo.png" style="width:1.2rem">
+					</div>
+					<div class="col s11 m11">
+						<p class="indigo-text" style="font-size:1.2rem">Timely Workshops.</p>
+					</div>
+				</div>
+				
+				<div class="row valign-wrapper" style="margin-top:0px;margin-bottom:0px">
+					<div class="col s1 m1 right-align">
+						<img src="images/bluelogo.png" style="width:1.2rem">
+					</div>
+					<div class="col s11 m11">
+						<p class="indigo-text" style="font-size:1.2rem">Program Type : Online</p>
+					</div>
+				</div>
+				<br>
+				<br>
+			</div>
+			
+			<div class="amber darken-1 hide-on-med-and-up">
+			<br>
+				<div class="row">
+					<div class="col s12 m12 center indigo-text" >
+						<p class="headingFont" style="font-size:2rem;margin-bottom:0px;margin-top:0px">WISDOM360 STRENGTHS</p>
+					</div>
+				</div>
+				<div class="row valign-wrapper" style="margin-top:0px;margin-bottom:0px">
+					<div class="col s1 m1 right-align">
+						<img src="images/bluelogo.png" style="width:1.2rem">
+					</div>
+					<div class="col s11 m11">
+						<p class="indigo-text" style="font-size:1.2rem">Teaching experts from top premiere institutes like IIM and other top institutes inside and outside of India.</p>
+					</div>
+				</div>
+				
+				<div class="row valign-wrapper" style="margin-top:0px;margin-bottom:0px">
+					<div class="col s1 m1 right-align">
+						<img src="images/bluelogo.png" style="width:1.2rem">
+					</div>
+					<div class="col s11 m11">
+						<p class="indigo-text" style="font-size:1.2rem">Strong and young entrepreneurs as participants who will share their insights and experiences during the course.</p>
+					</div>
+				</div>
+				
+				<div class="row valign-wrapper" style="margin-top:0px;margin-bottom:0px">
+					<div class="col s1 m1 right-align">
+						<img src="images/bluelogo.png" style="width:1.2rem">
+					</div>
+					<div class="col s11 m11">
+						<p class="indigo-text" style="font-size:1.2rem">Mixture of interactive simulations and fun exercises.</p>
+					</div>
+				</div>
+				
+				<div class="row valign-wrapper" style="margin-top:0px;margin-bottom:0px">
+					<div class="col s1 m1 right-align">
+						<img src="images/bluelogo.png" style="width:1.2rem">
+					</div>
+					<div class="col s11 m11">
+						<p class="indigo-text" style="font-size:1.2rem">nteraction with young and successful entrepreneurs.</p>
+					</div>
+				</div>
+				
+				<div class="row valign-wrapper" style="margin-top:0px;margin-bottom:0px">
+					<div class="col s1 m1 right-align">
+						<img src="images/bluelogo.png" style="width:1.2rem">
+					</div>
+					<div class="col s11 m11">
+						<p class="indigo-text" style="font-size:1.2rem">Certificate of Participation by the end of course which can be used for resume building.</p>
+					</div>
+				</div>
+				
+				<div class="row valign-wrapper" style="margin-top:0px;margin-bottom:0px">
+					<div class="col s1 m1 right-align">
+						<img src="images/bluelogo.png" style="width:1.2rem">
+					</div>
+					<div class="col s11 m11">
+						<p class="indigo-text" style="font-size:1.2rem">Small batch size to allow quality of learning.</p>
+					</div>
+				</div>
+				
+				<div class="row valign-wrapper" style="margin-top:0px;margin-bottom:0px">
+					<div class="col s1 m1 right-align">
+						<img src="images/bluelogo.png" style="width:1.2rem">
+					</div>
+					<div class="col s11 m11">
+						<p class="indigo-text" style="font-size:1.2rem">Timely Workshops.</p>
+					</div>
+				</div>
+				
+				<div class="row valign-wrapper" style="margin-top:0px;margin-bottom:0px">
+					<div class="col s1 m1 right-align">
+						<img src="images/bluelogo.png" style="width:1.2rem">
+					</div>
+					<div class="col s11 m11">
+						<p class="indigo-text" style="font-size:1.2rem">Program Type : Online</p>
+					</div>
+				</div>
+				<br>
+				<br>
+			</div>
+			
+			<div class="row">
+				<div class="s12 m12">
+					<img src="images/last.png" style="width:100%">
+				</div>
+			</div>
+		</main>
+		
+		<footer class="page-footer green">
+			<div class="container" style="width:90%">
+				<div class="row">
+					<div class="col l6 s12">
+						<h5 class="white-text">Company Bio</h5>
+						<p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+					</div>
+					<div class="col l3 s12">
+						<h5 class="white-text">Settings</h5>
+						<ul>
+							<li><a class="white-text" href="#!">Link 1</a></li>
+							<li><a class="white-text" href="#!">Link 2</a></li>
+							<li><a class="white-text" href="#!">Link 3</a></li>
+							<li><a class="white-text" href="#!">Link 4</a></li>
+						</ul>
+					</div>
+					<div class="col l3 s12">
+						<h5 class="white-text">Connect</h5>
+						<ul>
+							<li><a class="white-text" href="#!">Link 1</a></li>
+							<li><a class="white-text" href="#!">Link 2</a></li>
+							<li><a class="white-text" href="#!">Link 3</a></li>
+							<li><a class="white-text" href="#!">Link 4</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container">
+					<center><a class="white-text" href="http://ameegolabs.com" target="_blank"> <span style="font-weight:500">Ameego Labs Pvt Ltd</span></a>
+					2020 © Copy Right</center>
+				</div>
+			</div>
+		</footer>
+		
+		
+		<!--  Scripts-->
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="js/materialize.js"></script>
+		<script src="js/init.js"></script>
+		
+	</body>
+</html>

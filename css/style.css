@@ -13,3 +13,16 @@
 .dropdown-content li > a {
 	color:grey;
 }
+
+.indigo-text{
+	color: #17479e !important;
+}
+
+.indigo{
+	background-color: #17479e !important;
+}
+
+.headingFont{
+	font-size:3.5rem;
+	font-family: Impact, Charcoal, sans-serif;
+}

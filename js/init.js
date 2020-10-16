@@ -9,7 +9,7 @@
 		$('#computerSlider').slider({height:210});
 		$('#mobileSlider').slider({height:300});
 		$('#computerSlider1').slider({height:280});
-		$('#mobileSlider2').slider({height:450});
+		$('#mobileSlider2').slider({height:470});
 		
 	}); // end of document ready
 })(jQuery); // end of jQuery name space

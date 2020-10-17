@@ -11,5 +11,8 @@
 		$('#computerSlider1').slider({height:280});
 		$('#mobileSlider2').slider({height:470});
 		
+		$('#computerSlider3').slider({height:280});
+		$('#mobileSlider3').slider({height:470});
+		
 	}); // end of document ready
 })(jQuery); // end of jQuery name space

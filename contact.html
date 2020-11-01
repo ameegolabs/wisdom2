@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+		<title>WISDOM360</title>
+		<link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32">
+		<link rel="apple-touch-icon-precomposed" href="images/favicon/apple-touch-icon-152x152.png">
+		<meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
+		<meta name="msapplication-TileColor" content="#FFFFFF">
+		
+		<!-- CSS  -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<script src="https://use.fontawesome.com/5da19a059d.js"></script>
+		<style>
+			.tabs .tab a{
+				color : rgb(0 89 164) !important;
+			}
+			.tabs .tab a:focus, .tabs .tab a:focus.active {
+				background-color: white !important;
+				outline: none;
+			}
+			.tabs .indicator {
+				background-color: #0059a4 !important;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<header>
+			<div class="navbar-fixed">
+				<nav class="white z-depth-0" role="navigation" style="border-bottom:1px solid #e0e0e0">
+					<div class="nav-wrapper container" style="width:95%">
+						<a id="logo-container" href="index.html" class="brand-logo">
+							<img src="images/root.png" style="width:2.8rem;"/>
+						</a>
+						<ul class="right hide-on-med-and-down">
+							<li><a href="#" class="grey-text text-darken-2" style="font-weight:500">Home</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownAbout" id="clickId">About us</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownProgram">Programs</a></li>
+							<li><a href="#" class="grey-text text-darken-2" style="font-weight:500">Global Program</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownLife">Life@Wisdom360</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownStory">Success Story</a></li>
+							<li><a class="grey-text text-darken-2 dropdown-trigger" style="font-weight:500" data-target="dropdownOthers">Others</a></li>
+							<li><a href="#" class="grey-text text-darken-2" style="font-weight:500">Contact us</a></li>
+						</ul>
+						<a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons grey-text text-darken-2">menu</i></a>
+					</div>
+				</nav>
+				
+			</div>
+			<!--mobile menu-->
+			<ul id="nav-mobile" class="sidenav">
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;About us &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">About Organisation</a></li>
+									<li><a href="">About Director</a></li>
+									<li><a href="">Core Values</a></li>
+									<li><a href="">Mission</a></li>
+									<li><a href="">Vision</a></li>
+									<li><a href="">Objective</a></li>
+									<li><a href="">Our Experts</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Programs &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">Classroom Program</a></li>
+									<li><a href="">Profile Building</a></li>
+									<li><a href="">My Percentile</a></li>
+									<li><a href="">Psychometric Councling</a></li>
+									<li><a href="">DMIT Councling</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Global Program</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Life@Wisdom360 &nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">Awards & Recognition</a></li>
+									<li><a href="">Media</a></li>
+									<li><a href="">Gallery</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Success Story&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">Results</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Others &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="material-icons">arrow_drop_down</i></div>
+							<div class="collapsible-body container">
+								<ul>
+									<li><a href="">Blog</a></li>
+									<li><a href="">Downloads</a></li>
+									<li><a href="">E-Book</a></li>
+									<li><a href="">Career</a></li>
+									<li><a href="">Brochure</a></li>
+									<li><a href="">Admission</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+				<li class="grey lighten-5">
+					<ul class="collapsible">
+						<li class="white">
+							<div class="collapsible-header">&nbsp;&nbsp;Contact us</div>
+						</li>
+					</ul>
+				</li>
+				<div class="divider"></div>
+			</ul>
+			
+			<!--dropdown contant-->
+			<ul id="dropdownAbout" class="dropdown-content">
+				<li><a href="#!">About Organisation</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">About Director</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Core Values</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Mission</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Vision</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Objective</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Our Experts</a></li>
+			</ul>
+			
+			<ul id="dropdownProgram" class="dropdown-content">
+				<li><a href="#!">Classroom Program</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Profile Building</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">My Percentile</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Psychometric Councling</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">DMIT Councling</a></li>
+			</ul>
+			
+			<ul id="dropdownLife" class="dropdown-content">
+				<li><a href="#!">Awards & Recognition</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Media</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Gallery</a></li>
+			</ul>
+			
+			<ul id="dropdownStory" class="dropdown-content">
+				<li><a href="#!">Results</a></li>
+			</ul>
+			
+			<ul id="dropdownOthers" class="dropdown-content">
+				<li><a href="#!">Blog</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Downloads</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">E-Book</a></li>
+				<li class="divider"></li>
+				<li><a href="#!">Career</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Brochure</a></li>
+			    <li class="divider"></li>
+				<li><a href="#!">Admission</a></li>
+			    
+			</ul>
+			
+		</header>
+		
+		<main>	
+			
+			<div class="indigo">
+				<div class="row">
+					<div class="col s12 m12 center">
+						<p class="white-text hide-on-small-only" style="font-size: 60px;font-weight:800;margin-bottom:0px">CONTACT US</p>
+						<p class="white-text hide-on-med-and-up" style="font-size: 40px;font-weight:800;margin-bottom:-10px;margin-top:15%">CONTACT US</p>
+						<br>
+						<br>
+						<br>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row container" style="width:90%">
+				<br>
+				<div class="col s12 m4 center white-text">
+					<div class="indigo" style="padding:1px">
+						<p style="font-weight:600">Contact Number : +91 9415 0222 36</p>
+					</div>
+					<br class="hide-on-med-and-up">
+				</div>
+				
+				<div class="col s12 m4 center white-text">
+					<div class="indigo" style="padding:1px">
+						<p style="font-weight:600">Email Id : lkowisdom360@gmail.com</p>
+					</div>
+					<br class="hide-on-med-and-up">
+				</div>
+				
+				<div class="col s12 m4 center white-text">
+					<div class="indigo" style="padding:1px">
+						<p style="font-weight:600">Website : www.wisdom360.co.in</p>
+					</div>
+				</div>
+				
+			</div>
+			<br>
+			<div class="row container" style="width:90%">
+				<div class="col s12">
+				  <ul class="tabs">
+					<li class="tab col s3"><a href="#test1">Head Office</a></li>
+					<li class="tab col s3"><a href="#test2">Branch Office 1</a></li>
+					<li class="tab col s3"><a href="#test4">Branch Office 2</a></li>
+				  </ul>
+				  <br>
+				</div>
+				
+				<div id="test1" class="col s12" style="border:1px solid #e0e0e0 ; border-radius:5px">
+					<div class="row">
+						<div class="col s12 m4 indigo-text">
+							<h6><b>Address : </b></h6>
+							<p style="margin-top:5px">1/46 , Rashmi Khand, Sharda Nagar, Near Central Bank, Lucknow 226002</p>
+							<h6><b>Contact No : </b></h6>
+							<p style="margin-top:5px">+91 7007 279 710</p>
+						</div>
+						<div class="col s12 m8 center">
+							<br>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7123.177943724153!2d80.931593!3d26.789369!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb6282bf6c09582b9!2sWISDOM%20360%20-%20Cultivating%20Success!5e0!3m2!1sen!2sin!4v1604219301984!5m2!1sen!2sin" width="95%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+						</div>
+					</div>
+				</div>
+				
+				
+				<div id="test2" class="col s12" style="border:1px solid #e0e0e0 ; border-radius:5px" >
+					<div class="row">
+						<div class="col s12 m4 indigo-text">
+							<h6><b>Address : </b></h6>
+							<p style="margin-top:5px">1/74, Rashmi Khand, Sharda Nagar, Near CASA Green, Lucknow 226002/p>
+							<h6><b>Contact No : </b></h6>
+							<p style="margin-top:5px">+91 7007 279 710</p>
+						</div>
+						<div class="col s12 m8 center">
+							<br>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7123.177943724153!2d80.931593!3d26.789369!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb6282bf6c09582b9!2sWISDOM%20360%20-%20Cultivating%20Success!5e0!3m2!1sen!2sin!4v1604219301984!5m2!1sen!2sin" width="95%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+						</div>
+					</div>
+				</div>
+				
+				<div id="test4" class="col s12" style="border:1px solid #e0e0e0 ; border-radius:5px">
+					<div class="row">
+						<div class="col s12 m4 indigo-text">
+							<h6><b>Address : </b></h6>
+							<p style="margin-top:5px">NS 1, Sector 6 C, Opposite Allen House Public School Vrindavan Colony, Lucknow 226026</p>
+							<h6><b>Contact No : </b></h6>
+							<p style="margin-top:5px">+91 7007 279 710</p>
+						</div>
+						<div class="col s12 m8 center">
+							<br>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7123.177943724153!2d80.931593!3d26.789369!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb6282bf6c09582b9!2sWISDOM%20360%20-%20Cultivating%20Success!5e0!3m2!1sen!2sin!4v1604219301984!5m2!1sen!2sin" width="95%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row container" style="width:90%">
+				<br>
+				<div class="col s12 m6 center white-text offset-m3 indigo">
+					<p style="font-weight:600"><span style="font-size: 1.3rem;">Follow us on : </span>
+					&nbsp;&nbsp;<a href="#"><i class="fa fa-facebook-official white-text" aria-hidden="true" style="font-size: 1.7rem;"></i></a>
+					&nbsp;&nbsp;<a href="#"><i class="fa fa-instagram white-text" aria-hidden="true" style="font-size: 1.7rem;"></i></a>
+					&nbsp;&nbsp;<a href="#"><i class="fa fa-linkedin-square white-text" aria-hidden="true" style="font-size: 1.7rem;"></i></a>
+					&nbsp;&nbsp;<a href="#"><i class="fa fa-youtube-square white-text" aria-hidden="true" style="font-size: 1.7rem;"></i></a>
+					&nbsp;&nbsp;<a href="#"><i class="fa fa-twitter-square white-text" aria-hidden="true" style="font-size: 1.7rem;"></i></a>
+					</p>
+				</div>
+			</div>
+			
+			<div class="row container" style="width:90%">
+				<br>
+				<div class="col s12 m12 indigo-text">
+					<h5><b>SEND QUERY</b></h5>
+				</div>
+				<div class="input-field col s12 m6">
+				  <input id="name" type="text" class="validate">
+				  <label for="name">NAME</label>
+				</div>
+				<div class="input-field col s12 m6">
+				  <input id="email" type="email" class="validate">
+				  <label for="email">EMAIL</label>
+				</div>
+				<div class="input-field col s12 m6">
+				  <input id="phone" type="text" class="validate">
+				  <label for="phone">PHONE NUMBER</label>
+				</div>
+				<div class="input-field col s12 m6">
+					<select>
+					  <option value="" disabled selected>PROGRAM TYPE</option>
+					  <option value="1">Program 1</option>
+					  <option value="2">Program 2</option>
+					  <option value="3">Program 3</option>
+					</select>
+				</div>
+				<div class="input-field col s12 m12">
+				  <textarea id="message" class="materialize-textarea"></textarea>
+				  <label for="message">MESSAGE</label>
+				</div>
+				<a href="#">
+					<div class="col s4 m1 indigo white-text center">
+						<p><b>SUBMIT</b></p>
+					</div>
+				</a>
+			</div>
+			
+		</main>
+		
+		<footer class="page-footer green">
+			<div class="container" style="width:90%">
+				<div class="row" style="margin-top:0px">
+					<div class="col l6 s12">
+						<h5 class="white-text">Company Bio</h5>
+						<p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+						
+						
+					</div>
+					<div class="col l3 s12">
+						<h5 class="white-text">Settings</h5>
+						<ul>
+							<li><a class="white-text" href="#!">Link 1</a></li>
+							<li><a class="white-text" href="#!">Link 2</a></li>
+							<li><a class="white-text" href="#!">Link 3</a></li>
+							<li><a class="white-text" href="#!">Link 4</a></li>
+						</ul>
+					</div>
+					<div class="col l3 s12">
+						<h5 class="white-text">Connect</h5>
+						<ul>
+							<li><a class="white-text" href="#!">Link 1</a></li>
+							<li><a class="white-text" href="#!">Link 2</a></li>
+							<li><a class="white-text" href="#!">Link 3</a></li>
+							<li><a class="white-text" href="#!">Link 4</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container">
+					<center><a class="white-text" href="http://ameegolabs.com" target="_blank"> <span style="font-weight:500">Ameego Labs Pvt Ltd</span></a>
+					2020 © Copy Right</center>
+				</div>
+			</div>
+		</footer>
+		
+		
+		<!--  Scripts-->
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="js/materialize.js"></script>
+		<script src="js/init.js"></script>
+		
+		<script>
+			$(document).ready(function(){
+				$('.tabs').tabs();
+				 $('select').formSelect();
+			});
+		</script>
+		
+	</body>
+</html>
